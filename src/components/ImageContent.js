@@ -9,12 +9,12 @@ export default function ImageContent(props) {
   function mouseEventHandler(e) {
     if (hoverImage) {
       // if true - mouseover
-      e.target.style.boxShadow = "none";
-      e.target.style.scale = "1";
+      // e.target.style.boxShadow = "none";
+      // e.target.style.scale = "1";
     } else {
       // if false - mouseout
-      e.target.style.boxShadow = "8px 8px #000";
-      e.target.style.scale = "1.05";
+      // e.target.style.boxShadow = "8px 8px #000";
+      // e.target.style.scale = "1.05";
     }
   }
   return (

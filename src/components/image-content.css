@@ -6,11 +6,32 @@
   width: auto;
   height: 300px;
   margin: 10px;
-  /* position: relative; */
+  z-index: 0;
+  transition: 0.3s ease-in-out;
 }
 .category-image__text {
   position: absolute;
   top: 50%;
-  /* width: 200px; */
   text-align: center;
 }
+
+.image-wrapper--hover {
+  /* animation: expand 0.5s; */
+  /* box-shadow: 5px 10px;
+  transition: */
+}
+.category-image:hover {
+  box-shadow: 2.5px 5px 5px rgba(0, 0, 0, 1);
+  scale: 1.25;
+  transform: translate(20px, 10px);
+  position: relative;
+  /* z-index: 1; */
+}
+/* @keyframes expand {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+} */
