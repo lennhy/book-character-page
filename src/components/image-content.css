@@ -1,5 +1,16 @@
-.categoryImage {
-  width: 200px;
-  height: auto;
+.image-wrapper {
+  position: relative;
+  text-align: center;
+}
+.category-image {
+  width: auto;
+  height: 300px;
   margin: 10px;
+  /* position: relative; */
+}
+.category-image__text {
+  position: absolute;
+  top: 50%;
+  /* width: 200px; */
+  text-align: center;
 }
