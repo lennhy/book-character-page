@@ -1,4 +1,4 @@
-.image-wrapper {
+.category-image-wrapper {
   position: relative;
   text-align: center;
 }
@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.image-wrapper--hover {
+.category-image-wrapper--hover {
   /* animation: expand 0.5s; */
   /* box-shadow: 5px 10px;
   transition: */
