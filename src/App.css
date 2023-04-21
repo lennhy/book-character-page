@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
 }
+
 .App {
   text-align: center;
 }
@@ -17,4 +19,4 @@ body {
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
   color: white;
-}
+}/*# sourceMappingURL=App.css.map */
