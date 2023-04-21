@@ -1,5 +1,14 @@
+* {
+  margin: 0;
+}
+
+.flex-standard, .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+} 
 .gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}/*# sourceMappingURL=gallery.css.map */
+} /*# sourceMappingURL=gallery.css.map */

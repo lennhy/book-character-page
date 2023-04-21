@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./image-content.css";
 
-export default function ImageContent(props) {
-  console.log(props);
+export default function ImageContent({ category, index }) {
+  console.log(index);
   const [hoverImage, setHoverImage] = useState(false);
-  let imgUrl = `../../${props.category}.jpg`;
+  let imgUrl = `../../${category}.jpg`;
 
   function mouseEventHandler(e) {
     if (hoverImage) {
@@ -28,12 +28,12 @@ export default function ImageContent(props) {
           mouseEventHandler(e);
           setHoverImage(false);
         }}
-        className="category-image__image"
+        className={`category-image__image category-image__image--${index}`}
         src={imgUrl}
-        alt={props.category}
+        alt={category}
       />
       <div className="category-image__text">
-        <h3>{props.category}</h3>
+        <h3>{category}</h3>
       </div>
     </div>
   );
