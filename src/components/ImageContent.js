@@ -18,7 +18,7 @@ export default function ImageContent(props) {
     }
   }
   return (
-    <div className="category-image-wrapper">
+    <div className="category-image">
       <img
         onMouseOver={(e) => {
           mouseEventHandler(e);
@@ -28,7 +28,7 @@ export default function ImageContent(props) {
           mouseEventHandler(e);
           setHoverImage(false);
         }}
-        className="category-image"
+        className="category-image__image"
         src={imgUrl}
         alt={props.category}
       />
