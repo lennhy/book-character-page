@@ -2,13 +2,29 @@
   margin: 0;
 }
 
-.flex-standard, .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-} 
+
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-} /*# sourceMappingURL=gallery.css.map */
+  flex-direction: column;
+}
+@media (min-width: 1280px) {
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=gallery.css.map */

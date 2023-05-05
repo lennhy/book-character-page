@@ -1,8 +1,18 @@
-@use "./styles/partials/global" as *;
+@use "../styles/partials/global" as *;
+@use "../styles/partials/mixins" as *;
 
 .gallery {
-  @extend .flex-standard;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  // @extend .flex-standard;
+  @include flex-column;
+  // background-color: red;
+  // display: flex;
+  // flex-wrap: wrap;
+  // align-items: center;
+  @include desktop {
+    @include flex-standard;
+  }
+
+  @include tablet {
+    @include flex-standard;
+  }
 } /*# sourceMappingURL=gallery.css.map */

@@ -1,8 +1,24 @@
+@use "variables" as *;
+
 @mixin center-element {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+@mixin flex-standard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+} /*# sourceMappingURL=gallery.css.map */
+
+@mixin flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+} /*# sourceMappingURL=gallery.css.map */
 
 @mixin desktop {
   @media (min-width: $desktop-breakpoint) {
