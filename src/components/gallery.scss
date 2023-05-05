@@ -1,0 +1,8 @@
+@use "./styles/partials/global" as *;
+
+.gallery {
+  @extend .flex-standard;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+} /*# sourceMappingURL=gallery.css.map */
