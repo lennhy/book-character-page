@@ -12,30 +12,32 @@
 .category-image__text {
   position: absolute;
   top: 40%;
-  text-align: center;
+  left: 0;
+  right: 0;
 }
-
 .category-image--hover {
   /* animation: expand 0.5s; */
   /* box-shadow: 5px 10px;
   transition: */
 }
+.category-image img:hover {
+  box-shadow: -5px 5px 5px #191919;
+}
 .category-image:hover {
   scale: 1.1;
-  box-shadow: -5px 5px 5px #191919;
-
   transform: skew(-0.3turn, 18deg);
   transform: translate(20px, 10px);
   /* transform: rotateY(-150deg); */
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 /* .category-image:hover::after {
   content: "this is";
   position: absolute;
   top: 40%;
   text-align: center;
-} */
+} 
 /* @keyframes expand {
   from {
     transform: scale(1);

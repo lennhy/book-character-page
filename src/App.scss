@@ -1,5 +1,6 @@
 @use "./styles/partials/global" as *;
 @use "./styles/partials/variables" as *;
+@use "./styles/partials/mixins" as *;
 
 * {
   box-sizing: border-box;
@@ -20,4 +21,10 @@ body {
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
   color: white;
+}
+
+@include desktop {
+}
+
+@include tablet {
 }
