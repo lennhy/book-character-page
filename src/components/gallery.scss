@@ -4,10 +4,6 @@
 .gallery {
   // @extend .flex-standard;
   @include flex-column;
-  // background-color: red;
-  // display: flex;
-  // flex-wrap: wrap;
-  // align-items: center;
   @include desktop {
     @include flex-standard;
   }
