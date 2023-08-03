@@ -4,6 +4,18 @@
 
 ## Inital Landing page with illustrations that link to detailed page each illustration
 
+## THis APP uses IMDB API to fetch data
+https://developer.imdb.com/documentation/api-documentation/getting-access/?ref_=up_next
+
+## call for top book to movie adapatations
+
+
+
+
+
+
+
+
 ## REACT --------------
 
 # Getting Started with Create React App
