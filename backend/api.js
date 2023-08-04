@@ -1,10 +1,6 @@
-// const pgp = require('pg-promise')(/* options */)
-// const db = pgp('postgres://username:password@host:port/database')
+const client = require('./connection.js')
+const express = require('express');
+const app = express();
 
-// db.one('SELECT $1 AS value', 123)
-//   .then((data) => {
-//     console.log('DATA:', data.value)
-//   })
-//   .catch((error) => {
-//     console.log('ERROR:', error)
-//   })
+const bodyParser = require("body-parser");
+app.use(bodyParser.json());
