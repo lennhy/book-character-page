@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const axios = require('axios');
 const cheerio = require('cheerio');
 const express = require('express');
@@ -18,21 +20,19 @@ const getbookData = (url) =>{
         $('tr[itemscope]').each((index, element) => {
             book = {} // create new book object to add to books array
             book.title =  $(element).find(".bookTitle span[itemprop='name']").text()
-            book.description =  $(element).find(".bookTitle span[itemprop='name']").text()
             book.author = $(element).find(".authorName span[itemprop='name']").text()
             book.review =  $(element).find("span.minirating").text()
             books.push(book)
         })
-        client.query(`CREATE TABLE IF NOT EXISTS subscribers (
-            id SERIAL PRIMARY KEY,
-            first_name VARCHAR(100),
-            last_name VARCHAR(100),
-            email VARCHAR(100),
-            subscribe_date DATE NOT NULL
-         );`)
-        // client.query(`
-        // return books
-        console.log(books)
+        // --------- Insert data key pair values into database
+        books.forEach((bk, i)=>{
+            console.log(typeof bk.review)
+            const text = `INSERT INTO ${process.env.DB_TABLE} (title, author,review) VALUES($1, $2, $3)`
+            const values = [`${bk.title}`, `${bk.author}`, `${bk.review}`]
+            console.log(values)
+            const res =  client.query(text, values)
+        })
+
         console.log("End of Page >>>>>>>>>>>>>>>>>>>>>>>>>>>.")
     })
     .catch(err => console.error(err))
