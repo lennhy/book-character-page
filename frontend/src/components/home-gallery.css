@@ -26,5 +26,9 @@
     flex-direction: row;
   }
 }
+.home-gallery a {
+  color: #fff;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=home-gallery.css.map */

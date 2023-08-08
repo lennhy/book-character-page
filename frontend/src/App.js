@@ -13,9 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        {/* <header className="App-header">
-          <HomeGallery />
-        </header> */}
+  
         <Routes>
           <Route path="/" element={<HomeGallery />}></Route>
           <Route path="/film" element={<FilmPage />}></Route>
