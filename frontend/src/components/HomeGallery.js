@@ -1,17 +1,18 @@
 import ImageContent from "./ImageContent.js";
-import "./gallery.css";
-export default function Gallery() {
-  const categories = ["comics", "novels", "characters"];
+import "./home-gallery.css";
+import "../App.css";
+export default function HomeGallery() {
+  const categories = ["Comics", "Novels", "Film"];
   let currentCatSlected = null;
 
   return (
-    <>
+    <header className="App-header">
       <h2></h2>
-      <section className="gallery">
+      <section className="home-gallery">
         {categories.map((cat, i) => (
           <ImageContent key={cat} category={cat} index={i} />
         ))}
       </section>
-    </>
-  );
+    </header>
+  )
 }

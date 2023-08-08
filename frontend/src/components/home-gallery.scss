@@ -1,7 +1,7 @@
 @use "../styles/partials/global" as *;
 @use "../styles/partials/mixins" as *;
 
-.gallery {
+.home-gallery {
   // @extend .flex-standard;
   @include flex-column;
   @include desktop {

@@ -4,14 +4,14 @@
 
 
 
-.gallery {
+.home-gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
 }
 @media (min-width: 1280px) {
-  .gallery {
+  .home-gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -19,7 +19,7 @@
   }
 }
 @media (min-width: 768px) {
-  .gallery {
+  .home-gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -27,4 +27,4 @@
   }
 }
 
-/*# sourceMappingURL=gallery.css.map */
+/*# sourceMappingURL=home-gallery.css.map */
