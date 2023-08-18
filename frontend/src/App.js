@@ -6,6 +6,7 @@ import NovelPage from "./components/NovelPage";
 import FilmPage from "./components/FilmPage";
 import ComicPage from "./components/ComicPage";
 import Navbar from "./components/Navbar";
+import BookToMoviesList from "./components/BooksToMoviesList";
 
 // Root
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/film" element={<FilmPage />}></Route>
           <Route path="/novels" element={<NovelPage />}></Route>
           <Route path="/comics" element={<ComicPage />}></Route>
+          <Route path="/topbookadaptations" element={<BookToMoviesList />}></Route>
 
         </Routes>
         

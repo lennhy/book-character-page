@@ -9,7 +9,9 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/film">Film</NavLink>
         <NavLink to="/novels">Novels</NavLink>
-        <NavLink to="/comics">Comics</NavLink>
+        <NavLink to="/illustrations">Illustrations</NavLink>
+        <NavLink to="/topbookadaptations">IMDB Top Book Adaptations</NavLink>
+
       </nav>
     </>
   );
