@@ -7,6 +7,7 @@ import FilmPage from "./components/FilmPage";
 import ComicPage from "./components/ComicPage";
 import Navbar from "./components/Navbar";
 import BookToMoviesList from "./components/BooksToMoviesList";
+import IllustrationsPage from "./components/IllustrationsPage";
 
 // Root
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/novels" element={<NovelPage />}></Route>
           <Route path="/comics" element={<ComicPage />}></Route>
           <Route path="/topbookadaptations" element={<BookToMoviesList />}></Route>
+          <Route path="/illustrations" element={<IllustrationsPage />}></Route>
 
         </Routes>
         

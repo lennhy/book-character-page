@@ -11,7 +11,6 @@ const Navbar = () => {
         <NavLink to="/novels">Novels</NavLink>
         <NavLink to="/illustrations">Illustrations</NavLink>
         <NavLink to="/topbookadaptations">IMDB Top Book Adaptations</NavLink>
-
       </nav>
     </>
   );
