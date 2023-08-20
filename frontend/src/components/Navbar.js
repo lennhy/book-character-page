@@ -11,6 +11,8 @@ const Navbar = () => {
         <NavLink to="/novels">Novels</NavLink>
         <NavLink to="/illustrations">Illustrations</NavLink>
         <NavLink to="/topbookadaptations">IMDB Top Book Adaptations</NavLink>
+        <NavLink to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">SHOP</NavLink>
+
       </nav>
     </>
   );
