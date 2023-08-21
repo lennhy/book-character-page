@@ -8,13 +8,16 @@ const Navbar = () => {
     <>
       <nav className="navigation">
         <img src="" className="" alt="logo" />
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/film">Film</NavLink>
-        <NavLink to="/novels">Novels</NavLink>
-        <NavLink to="/illustrations">Illustrations</NavLink>
-        <NavLink to="/topbookadaptations">IMDB Top Book Adaptations</NavLink>
-        <NavLink to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">SHOP</NavLink>
-
+        <div className="flex">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/film">Film</NavLink>
+          <NavLink to="/novels">Novels</NavLink>
+          <NavLink to="/illustrations">Illustrations</NavLink>
+        </div>
+        <div className="flex float-right">
+          <NavLink to="/topbookadaptations">IMDB Top Book Adaptations</NavLink>
+          <NavLink to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">SHOP</NavLink>
+        </div>
       </nav>
     </>
   );

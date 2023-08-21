@@ -25,4 +25,17 @@ body {
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
   color: white;
+}
+
+.flex-container {
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+}
+
+.flex-container.right {
+  justify-content: flex-end;
+  display: flex;
+  right: 0;
+  position: absolute;
 }/*# sourceMappingURL=App.css.map */
