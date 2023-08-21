@@ -1,0 +1,14 @@
+.navigation{
+    background-color: #282c34;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    display: flex;
+}
+
+.navigation a{
+    color: #9ea5b4;
+    text-decoration: none;
+    padding: 0 10px 0 0;
+}
