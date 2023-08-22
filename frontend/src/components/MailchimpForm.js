@@ -20,26 +20,28 @@ export default function MailchimpForm() {
           <form className="mc__form">
             <h3 className="mc__title">"Unlock Tomorrow's Tale: Join the Exclusive Newsletter for Our Upcoming Novel!”</h3>
             <div className="mc__field-container">
+              <label htmlFor="first-name">First Name:</label>
               <input
-                label="First Name"
+                id="first-name"
                 onChange={e => setFirstName(e.target.value)} 
                 type="text"
                 value={firstName}
-                placeholder="Jane"
+                placeholder="First Name"
                 isrequired="true" 
               />
 
+              <label htmlFor="last-name">First Name:</label>
               <input
-                label="Last Name"
+                id="last-name"
                 onChange={e => setLastName(e.target.value)} 
                 type="text"
                 value={lastName}
-                placeholder="Doe"
+                placeholder="Last Name"
                 isrequired="true" 
               />
-
+              <label htmlFor="email">Email:</label>
               <input
-                label="Email"
+                id="email"
                 onChange={e => setEmail(e.target.value)} 
                 type="email"
                 value={email}
