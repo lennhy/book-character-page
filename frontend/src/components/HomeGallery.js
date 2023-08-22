@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom"; // import Link in addition to other 
 import ImageContent from "./ImageContent.js";
 import "./home-gallery.css";
 import "../App.css";
+// require('dotenv').config()
 export default function HomeGallery() {
   const categories = ["Illustrations", "Novels", "Film"];
   let currentCatSlected = null;

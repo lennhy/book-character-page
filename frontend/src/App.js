@@ -8,6 +8,7 @@ import ComicPage from "./components/ComicPage";
 import Navbar from "./components/Navbar";
 import BookToMoviesList from "./components/BooksToMoviesList";
 import IllustrationsPage from "./components/IllustrationsPage";
+import MailchimpForm from "./components/MailchimpForm";
 
 // Root
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/comics" element={<ComicPage />}></Route>
           <Route path="/topbookadaptations" element={<BookToMoviesList />}></Route>
           <Route path="/illustrations" element={<IllustrationsPage />}></Route>
+          <Route path="/newsletter" element={<MailchimpForm />}></Route>
 
         </Routes>
         
