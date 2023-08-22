@@ -4,10 +4,12 @@ export default function MailchimpForm() {
   const id = process.env.REACT_APP_MAILCHIMP_ID
   const postURL = `${process.env.REACT_APP_MAILCHIMP_POST_URL}?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`
   console.log(postURL)
-  // return (
-    //     <>
-      
-    //     </>
-    //   )
+  return (
+        <>
+        <Form className="">
+          
+        </Form>
+        </>
+      )
 
 } 

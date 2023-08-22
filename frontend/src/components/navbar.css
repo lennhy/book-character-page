@@ -9,5 +9,17 @@
 .navigation a {
   color: #9ea5b4;
   text-decoration: none;
-  padding: 0 10px 0 0;
-}/*# sourceMappingURL=navbar.css.map */
+  padding: 0 15px 0 0;
+}
+
+.flex-container{
+  display: flex;
+  background-color: #282c34;
+  justify-content: space-between
+}
+.flex-container.float-right {
+    justify-content: flex-end;
+    display: flex;
+    right: 0;
+    position: absolute;
+}
