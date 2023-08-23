@@ -9,11 +9,9 @@ https://developer.imdb.com/documentation/api-documentation/getting-access/?ref_=
 
 ## call for top book to movie adapatations
 
-
-
-
-
-
+## MAILCHIMP
+How to use and structure formdata when creating a custom mailchimp sign up form in React
+https://mailchimp.com/help/host-your-own-signup-forms/
 
 
 ## REACT --------------

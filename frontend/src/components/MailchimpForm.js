@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from 'axios';
 
 export default function MailchimpForm() {
   const url = process.env.REACT_APP_MAILCHIMP_POST_URL
@@ -34,42 +33,7 @@ export default function MailchimpForm() {
     formData.append('id', process.env.REACT_APP_MAILCHIMP_ID,)
     formData.append('MERGE0', email)
     formData.append( 'MERGE1', firstName)
-    formData.append( 'MERGE2', lastName)
-    console.log(formData)
-    // axios
-    //   .post(postURL, 
-    //     data, {
-    //     headers: {
-    //       Accept: "application/json",
-    //       "Content-Type": "application/json;charset=UTF-8",
-    //     },
-    //   })
-    //   .then(({data}) => {
-    //     console.log(data);
-    // });
-
-    // axios({
-    //   method: 'post',
-    //   mode: 'cors',
-    //   url: postURL,
-    //   withCredentials: false,
-    //   params: formData
-    // }).then(({data}) => {
-    //       console.log(data);
-    //   });
-
-    // fetch
-      //   body: JSON.stringify({
-    //     'u': process.env.REACT_APP_MAILCHIMP_U,
-    //     'id': process.env.REACT_APP_MAILCHIMP_ID,
-    //     'MERGE0' : email,
-    //     'MERGE1' :firstName,
-    //     'MERGE2' : lastName,
-    //   headers: {
-    //     'Access-Control-Allow-Origin' : '*',
-    //     'Content-Type': 'application/x-www-form-urlencoded'
-    //   }
-    // })
+    formData.append( 'MERGE2', lastName)   
 
     fetch(postURL, {
       method: 'POST',
