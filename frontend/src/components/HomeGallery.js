@@ -8,9 +8,9 @@ export default function HomeGallery() {
   let currentCatSlected = null;
 
   return (
-    <section class="page-comtainer">
-     <section class="flex-center">
-        <div class="text-container">
+    <section className="page-comtainer">
+     <section className="flex-center">
+        <div className="text-container">
           <h1>POLYVERGE</h1>
           </div>
         </section>
