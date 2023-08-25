@@ -4,7 +4,7 @@ import "./home-gallery.css";
 import "../App.css";
 
 export default function HomeGallery() {
-  const categories = ["Illustrations", "Novels", "Film"];
+  const categories = ["illustrations", "novels", "film"];
   let currentCatSlected = null;
 
   return (
