@@ -3,7 +3,10 @@ import "./image-content.css";
 
 export default function ImageContent({ category, index }) {
   const [hoverImage, setHoverImage] = useState(false);
-  let imgUrl = `../../${category}.jpg`;
+  // let imgUrl = `../../${category}.jpg`;
+
+  let imgUrl = process.env.PUBLIC_URL + `${category}.jpg`
+  // console.log(process.env.PUBLIC_URL)
 
   function mouseEventHandler(e) {
     if (hoverImage) {
