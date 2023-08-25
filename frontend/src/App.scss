@@ -1,19 +1,21 @@
 @use "./styles/partials/global" as *;
 @use "./styles/partials/variables" as *;
 @use "./styles/partials/mixins" as *;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Raleway&display=swap');
+
 
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  background-color: $dark;
 }
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: $dark;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,4 +23,15 @@ body {
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
   color: white;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-container{
+  margin-top:100px;
+  color: #fff;
 }

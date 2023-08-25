@@ -13,6 +13,8 @@ https://developer.imdb.com/documentation/api-documentation/getting-access/?ref_=
 How to use and structure formdata when creating a custom mailchimp sign up form in React
 https://mailchimp.com/help/host-your-own-signup-forms/
 
+### MAILCHIMP API
+https://mailchimp.com/developer/transactional/api/inbound/
 
 ## REACT --------------
 

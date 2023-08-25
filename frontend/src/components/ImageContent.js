@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./image-content.css";
 
 export default function ImageContent({ category, index }) {
-  console.log(index);
   const [hoverImage, setHoverImage] = useState(false);
   let imgUrl = `../../${category}.jpg`;
 
@@ -18,7 +17,7 @@ export default function ImageContent({ category, index }) {
     }
   }
   return (
-    <div className="category-image">
+    <div className="category-image" key={index}>
       <img
         onMouseOver={(e) => {
           mouseEventHandler(e);

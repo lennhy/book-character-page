@@ -1,10 +1,13 @@
+@use "../styles/partials/variables" as *;
+
 .navigation{
-    background-color: #282c34;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    background-color: transparent;
+    position: fixed;
     top: 0;
     padding: 10px;
     display: flex;
+    width: 100%;
+    align-items: center;
 }
 
 .navigation a{
@@ -13,12 +16,16 @@
     padding: 0 10px 0 0;
 }
 
+.navigation img{
+    width: 35px;
+    height: 35px;
+}
 .flex-container{
     display: flex;
-    background-color: #282c34;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
   }
-  .flex-container .float-right {
+  .flex-container.float-right {
       justify-content: flex-end;
       display: flex;
       right: 0;

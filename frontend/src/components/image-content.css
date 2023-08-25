@@ -27,8 +27,7 @@
 
 .category-image:hover {
   scale: 1.35;
-  transform: skew(-0.3turn, 18deg);
-  transform: translate(20px, 10px);
+  transform: skew(5deg);
   /* transform: rotateY(-150deg); */
   position: relative;
   z-index: 1;

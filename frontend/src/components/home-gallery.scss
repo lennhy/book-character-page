@@ -16,3 +16,67 @@
     text-decoration: none;
 }
 } /*# sourceMappingURL=gallery.css.map */
+
+
+// Home Gallery text animation ---------------->
+.text-container {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 125px;
+}
+.text-container h1{
+  font-size: 50px;
+  color: #e3e0e0;
+}
+.App-header{
+  margin: 0;
+  
+  background: url("../assets/paralysis.jpg");
+  // top: -500px;
+  background-repeat: repeat;
+  // background-size: cover;
+  // background-clip:text;
+  animation: animate 55s ease-in-out infinite;
+  text-align: center;
+}
+
+  @keyframes animate {
+    // 0%, 100% {
+    //   background-position: top;
+    // }
+   
+    // 75% {
+    //   background-position: bottom;
+    // }   
+    // 0%, 100% {
+    //   background-position: left top;
+    // }
+    // 25%{
+    //   background-position: right bottom;
+    //  }
+    // 50% {
+    //   background-position: left bottom;
+    // }
+    // 75% {
+    //   background-position: right top;
+    // }  
+    // 0%, 100% {
+    //   background-position: left top;
+    // }
+    // 25%{
+    //   background-position: right bottom;
+    //  }
+    // 50% {
+    //   background-position: right top;
+    // }
+    // 75% {
+    //   background-position: left bottom;
+    // }  
+    50% {background-position: center;}
+ 
+}

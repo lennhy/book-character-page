@@ -1,25 +1,33 @@
 .navigation {
-  background-color: #282c34; /* Safari */
-  position: sticky;
+  background-color: transparent;
+  position: fixed;
   top: 0;
   padding: 10px;
   display: flex;
+  width: 100%;
+  align-items: center;
 }
 
 .navigation a {
   color: #9ea5b4;
   text-decoration: none;
-  padding: 0 15px 0 0;
+  padding: 0 10px 0 0;
 }
 
-.flex-container{
+.navigation img {
+  width: 35px;
+  height: 35px;
+}
+
+.flex-container {
   display: flex;
-  background-color: #282c34;
-  justify-content: space-between
+  justify-content: space-between;
+  align-items: center;
 }
+
 .flex-container.float-right {
-    justify-content: flex-end;
-    display: flex;
-    right: 0;
-    position: absolute;
-}
+  justify-content: flex-end;
+  display: flex;
+  right: 0;
+  position: absolute;
+}/*# sourceMappingURL=navbar.css.map */
