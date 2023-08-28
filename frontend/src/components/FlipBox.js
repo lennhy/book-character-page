@@ -7,10 +7,10 @@ export default function FlipBox() {
         <div className="flex-center">
             <div className="flip-box">
                 <div className="flip-box-inner">
-                    <div className="flip-box-front">
+                    <div className="flip-box-front flex-center">
                     <h2>Children of The Pantheon</h2>
                     </div>
-                    <div className="flip-box-back">
+                    <div className="flip-box-back flex-center">
                     <p>Coming Soon. </p>
                     </div>
                 </div>

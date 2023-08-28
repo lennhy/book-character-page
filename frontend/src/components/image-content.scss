@@ -1,8 +1,10 @@
+//  ----------------- | Images for landing page | ------------------------
 .category-image {
   position: relative;
   margin: 0 5px;
   transition: 0.35s ease-in-out;
   z-index: 0;
+  flex-flow: column;
 }
 .category-image__image {
   width: auto;
@@ -28,7 +30,7 @@
   scale: 1.35;
   transform: skew(5deg);
   // transform: translate(20px, 10px);
-   transform: rotateY(-150deg); 
+  //  transform: rotateY(-150deg); 
   position: relative;
   z-index: 1;
   cursor: pointer;
@@ -47,3 +49,33 @@
     transform: scale(1.5);
   }
 } */
+
+
+
+
+// --------------------- | Images for gallery | ----------------------------
+.image-gallery{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  // align-items: ;
+  justify-content: center;
+}
+.image-gallery__thumb{
+}
+.image-gallery__thumb img{
+  height: 400px;
+  width: auto;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.9);
+}
+
+// --------------------- |  Media   | ----------------------------
+@media screen and (max-width: 450px) {
+
+  .image-gallery{
+    flex-flow: column;
+  }
+}

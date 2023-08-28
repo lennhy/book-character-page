@@ -52,7 +52,7 @@
   margin: 0;
   background: url("../assets/paralysis.jpg");
   background-repeat: repeat;
-  animation: animate 55s ease-in-out infinite;
+  animation: animate 60s ease-in-out infinite;
   text-align: center;
 }
 

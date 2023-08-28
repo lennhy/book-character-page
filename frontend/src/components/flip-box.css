@@ -27,22 +27,14 @@
 }
 
 .flip-box-front {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #101010;
+  background-color: #bbb;
   color: black;
-  padding: 10px;
+  box-shadow: 21px 31px 0pc rgb(13 13 13 / 90%);
 }
-.flip-box-front h2{
-  color: #fff;
-}
+
 .flip-box-back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #141211;
+  background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
-  padding: 10px;
+  background-color: #0f0f0f;
 }/*# sourceMappingURL=flip-box.css.map */
