@@ -13,7 +13,25 @@
 .navigation a{
     color: #9ea5b4;
     text-decoration: none;
-    padding: 0 10px 0 0;
+    padding: 10px;
+    // border: 2px solid transparent;
+    // transition: background-color 2s ease-out 100ms
+    background: #ff3232;
+    /* Old browsers */
+    background: linear-gradient(to right, transparent 50%, #ffffff 50%);
+    background-size: 210% 100%;
+    background-position:left bottom;
+    transition:all .5s ease;
+}
+.navigation a:hover{
+    // border: 2px solid;
+    // border-radius: 25px 0 25px 0px;
+    transform: skew(5deg);
+    padding: 10px;
+    // width: 100px;
+    // background-color:linear-gradient(to left, #181818 50%, rgb(255, 255, 255) 50%);
+    background-position:right bottom;
+    color:#0F0F0F;
 }
 
 .navigation img{
@@ -31,4 +49,6 @@
       right: 0;
       position: absolute;
   }
-  
+  #logo{
+    color: #fff;
+  }

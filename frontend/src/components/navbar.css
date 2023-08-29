@@ -11,7 +11,20 @@
 .navigation a {
   color: #9ea5b4;
   text-decoration: none;
-  padding: 0 10px 0 0;
+  padding: 10px;
+  background: #ff3232;
+  /* Old browsers */
+  background: linear-gradient(to right, transparent 50%, #ffffff 50%);
+  background-size: 210% 100%;
+  background-position: left bottom;
+  transition: all 0.5s ease;
+}
+
+.navigation a:hover {
+  transform: skew(5deg);
+  padding: 10px;
+  background-position: right bottom;
+  color: #0F0F0F;
 }
 
 .navigation img {
@@ -30,4 +43,8 @@
   display: flex;
   right: 0;
   position: absolute;
+}
+
+#logo {
+  color: #fff;
 }/*# sourceMappingURL=navbar.css.map */

@@ -10,7 +10,8 @@ const Navbar = () => {
       <nav className="navigation">
        
         <div className="flex-container">
-          <NavLink to="/"> <img src={logo} className="" alt="logo" /></NavLink>
+          {/* <NavLink to="/"> <img src={logo} className="" alt="logo" /></NavLink> */}
+          <NavLink id="logo" to="/">POLYVERGE</NavLink>
           <NavLink to="/illustrations">Illustrations</NavLink>
           <NavLink to="/film">Film</NavLink>
           <NavLink to="/novels">Novels</NavLink>
