@@ -11,14 +11,14 @@ const Navbar = () => {
        
         <div className="flex-container">
           <NavLink to="/"> <img src={logo} className="" alt="logo" /></NavLink>
+          <NavLink to="/illustrations">Illustrations</NavLink>
           <NavLink to="/film">Film</NavLink>
           <NavLink to="/novels">Novels</NavLink>
-          <NavLink to="/illustrations">Illustrations</NavLink>
         </div>
         <div className="flex-container float-right">
+          <NavLink to="/newsletter">Newsletter</NavLink>
           <NavLink to="/topbookadaptations">IMDB Top Book Adaptations</NavLink>
           <NavLink to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">SHOP</NavLink>
-          <NavLink to="/newsletter">newsletter</NavLink>
         </div>
       </nav>
     </>

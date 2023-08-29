@@ -29,12 +29,10 @@
 .flip-box-front {
   background-color: #bbb;
   color: black;
-  box-shadow: 21px 31px 0pc rgb(13 13 13 / 90%);
 }
 
 .flip-box-back {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
-  background-color: #0f0f0f;
 }/*# sourceMappingURL=flip-box.css.map */

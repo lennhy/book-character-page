@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./mailchimp-form.css";
 
 export default function MailchimpForm() {
   const url = process.env.REACT_APP_MAILCHIMP_POST_URL
@@ -48,15 +49,15 @@ export default function MailchimpForm() {
   }
 
   return (
-        <section className="page-container">
+        <section className="newsletter-container flex-center">
           <form action={postURL} className="mc__form" onSubmit={handleSubmit} >
-            <h3 className="mc__title">Unlock Tomorrow's Tale: Join the Exclusive Newsletter for Our Upcoming Novel!</h3>
             <div className="mc__field-container">
-              <label htmlFor="first-name">First Name:</label>
+            <h3 className="mc__title">Join the Exclusive Newsletter for Our Upcoming Novel!</h3>
+
               <input
+                class="form-input"
                 id="first-name"
                 name="MERGE1"
-
                 onChange={e => setFirstName(e.target.value)} 
                 type="text"
                 value={firstName}
@@ -64,8 +65,8 @@ export default function MailchimpForm() {
                 required={true} 
               />
 
-              <label htmlFor="last-name">First Name:</label>
               <input
+                class="form-input"
                 id="last-name"
                 name="MERGE2"
                 onChange={e => setLastName(e.target.value)} 
@@ -74,8 +75,8 @@ export default function MailchimpForm() {
                 placeholder="Last Name"
                 required={true} 
               />
-              <label htmlFor="email">Email:</label>
               <input
+                class="form-input"
                 id="email"
                 name="MERGE0"
 
@@ -86,11 +87,12 @@ export default function MailchimpForm() {
                 required={true} 
               />
 
-              <input
+              <button
+                class="form-input"
+                id="form-button"
                 label="subscribe"
                 type="submit"
-                formvalues={[email, firstName, lastName]}
-              />Subscribed
+              >Subscribe</button>
           </div>
           <div>{message}</div>
           </form>

@@ -1,0 +1,42 @@
+h3.mc__title {
+    margin-bottom: 20px;
+    color: #fff;
+}
+form.mc__form {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    width: 600px;
+    background-color: #181818;
+    border-radius: 100px 0 100px 10px;
+    // box-shadow: 13px 19px 20px rgba(11, 6, 6, 0.9019607843);
+}
+
+.mc__field-container {
+    display: flex;
+    flex-flow: column;
+    width: 430px;
+}
+
+.form-input{
+    margin: 10px;
+    height: 40px;
+    background: #d5cbcb;
+    // border-radius: 12px;
+    /* color: #fff; */
+}
+.form-input::placeholder{
+    color: #333;
+    padding: 10px;
+}
+#form-button{
+    background-color:#8b3034;
+    color: #fff;
+    border-radius: 100px 0 100px 10px;
+    border: none;
+    box-shadow: 13px 19px 20px rgba(11, 6, 6, 0.9019607843);
+    cursor: pointer;
+}
+.newsletter-container{
+    height: 100vh;
+}
