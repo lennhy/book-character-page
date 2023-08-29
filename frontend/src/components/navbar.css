@@ -9,7 +9,7 @@
 }
 
 .navigation a {
-  color: #9ea5b4;
+  color: #fff;
   text-decoration: none;
   padding: 10px;
   background: #ff3232;
@@ -18,6 +18,7 @@
   background-size: 210% 100%;
   background-position: left bottom;
   transition: all 0.5s ease;
+  text-transform: capitalize;
 }
 
 .navigation a.nav-links:hover {

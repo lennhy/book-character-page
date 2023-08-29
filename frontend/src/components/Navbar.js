@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         <div className="flex-container float-right">
           <NavLink className="nav-links" to="/newsletter">Newsletter</NavLink>
-          <NavLink className="nav-links" to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">SHOP</NavLink>
+          <NavLink className="nav-links" to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">Shop</NavLink>
         </div>
       </nav>
     </>

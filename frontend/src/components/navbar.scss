@@ -11,7 +11,8 @@
 }
 
 .navigation a{
-    color: #9ea5b4;
+    // color: #9ea5b4;
+    color:#fff;
     text-decoration: none;
     padding: 10px;
     // border: 2px solid transparent;
@@ -22,6 +23,7 @@
     background-size: 210% 100%;
     background-position:left bottom;
     transition:all .5s ease;
+    text-transform: capitalize;
 }
 .navigation a.nav-links:hover{
     // border: 2px solid;
