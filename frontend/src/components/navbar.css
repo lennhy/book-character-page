@@ -20,8 +20,8 @@
   transition: all 0.5s ease;
 }
 
-.navigation a:hover {
-  transform: skew(5deg);
+.navigation a.nav-links:hover {
+  transform: skew(-5deg);
   padding: 10px;
   background-position: right bottom;
   color: #0F0F0F;

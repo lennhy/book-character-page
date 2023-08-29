@@ -23,10 +23,10 @@
     background-position:left bottom;
     transition:all .5s ease;
 }
-.navigation a:hover{
+.navigation a.nav-links:hover{
     // border: 2px solid;
     // border-radius: 25px 0 25px 0px;
-    transform: skew(5deg);
+    transform: skew(-5deg);
     padding: 10px;
     // width: 100px;
     // background-color:linear-gradient(to left, #181818 50%, rgb(255, 255, 255) 50%);

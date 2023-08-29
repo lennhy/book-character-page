@@ -28,7 +28,7 @@
 
 .category-image:hover {
   scale: 1.35;
-  transform: skew(5deg);
+  transform: skew(-5deg);
   position: relative;
   z-index: 1;
   cursor: pointer;

@@ -1,5 +1,5 @@
 h3.mc__title {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #fff;
 }
 
@@ -10,7 +10,6 @@ form.mc__form {
   width: 600px;
   background-color: #181818;
   border-radius: 0 100px 0 100px;
-  transform: skew(5deg);
 }
 
 .mc__field-container {
@@ -23,7 +22,6 @@ form.mc__form {
   margin: 10px;
   height: 40px;
   background: #d5cbcb;
-  transform: skew(5deg);
   /* color: #fff; */
 }
 
@@ -40,7 +38,6 @@ form.mc__form {
 #form-button {
   background-color: #8b3034;
   color: #fff;
-  transform: skew(5deg);
   border: none;
   box-shadow: 13px 19px 20px rgba(11, 6, 6, 0.9019607843);
   cursor: pointer;
