@@ -8,7 +8,7 @@
 }
 .category-image__image {
   width: auto;
-  height: 300px;
+  height: 350px;
   z-index: 0;
   border-radius: 5px;
 }
@@ -62,6 +62,9 @@
   margin: 0px;
   // align-items: ;
   justify-content: center;
+}
+.category-image__image {
+  height: 300px;
 }
 .image-gallery__thumb{
 }
