@@ -17,7 +17,6 @@ const Navbar = () => {
         </div>
         <div className="flex-container float-right">
           <NavLink to="/newsletter">Newsletter</NavLink>
-          <NavLink to="/topbookadaptations">IMDB Top Book Adaptations</NavLink>
           <NavLink to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">SHOP</NavLink>
         </div>
       </nav>

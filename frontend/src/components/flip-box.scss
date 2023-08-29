@@ -2,7 +2,7 @@
     background-color: transparent;
     width: 400px;
     height: 500px;
-    border: 1px solid #f1f1f1;
+    border: none;
     perspective: 1000px;
     
   }
@@ -34,7 +34,7 @@
   }
   
   .flip-box-back {
-    background-color: dodgerblue;
+    background-color:#181818;
     color: white;
     transform: rotateY(180deg);
   }
