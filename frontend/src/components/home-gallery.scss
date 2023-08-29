@@ -80,3 +80,12 @@
     50% {background-position: center;}
  
 }
+
+@media screen and (max-width: 450px) {
+  .category-image__image {
+  
+    height: 200px;
+    margin: 5px;
+   
+}
+}
