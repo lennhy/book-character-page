@@ -9,7 +9,7 @@ export default function MailchimpForm() {
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState('Join the Exclusive Newsletter for Our Upcoming Novel!');
 
   const handleSubmit = (e) =>{
     e.preventDefault()
@@ -42,6 +42,9 @@ export default function MailchimpForm() {
         console.log('Request failed:–', error)  
       });
       setMessage("Congratulations! You're now part of our exclusive inner circle eagerly awaiting the unveiling of our upcoming novel.")
+      setEmail("")
+      setFirstName("")
+      setLastName("")
     }
     else {
       setMessage("You are missing information")
@@ -52,7 +55,7 @@ export default function MailchimpForm() {
         <section className="newsletter-container flex-center">
           <form action={postURL} className="mc__form" onSubmit={handleSubmit} >
             <div className="mc__field-container">
-            <h3 className="mc__title">Join the Exclusive Newsletter for Our Upcoming Novel!</h3>
+            <h3 className="mc__title">{message}</h3>
 
               <input
                 class="form-input"
@@ -94,7 +97,6 @@ export default function MailchimpForm() {
                 type="submit"
               >Subscribe</button>
           </div>
-          <div>{message}</div>
           </form>
       </section>
       )
