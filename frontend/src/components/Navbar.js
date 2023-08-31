@@ -1,12 +1,13 @@
 import { NavLink, useLocation } from "react-router-dom"; // import Link in addition to other Components
+import { useState } from 'react';
 import "./navbar.css";
 import logo from '../assets/polyverge-logo.jpg';
+import MobileNavbar from "./MobileNavbar";
 
 // import logo from "../logo.svg";
 
 const Navbar = () => {
   let location = useLocation();  
-
   const addSubNav = () =>{
     if (location.pathname !== '/'){
     return(
@@ -22,13 +23,12 @@ const Navbar = () => {
   return (
     <>
       <nav className="navigation">
-       
-        <div className="flex-container">
+        <div className="left">
           {/* <NavLink to="/"> <img src={logo} className="" alt="logo" /></NavLink> */}
           <NavLink id="logo" to="/">POLYVERGE</NavLink>
           {addSubNav()}
         </div>
-        <div className="flex-container float-right">
+        <div className="right">
           <NavLink className="nav-links" to="/newsletter">Newsletter</NavLink>
           <NavLink className="nav-links" to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">Shop</NavLink>
         </div>

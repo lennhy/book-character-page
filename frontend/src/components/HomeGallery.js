@@ -11,6 +11,7 @@ export default function HomeGallery() {
     <section className="page-comtainer">
      <section className="flex-center">
         <div className="text-container">
+          {/* <h1>POLYVERGE</h1> */}
           </div>
         </section>
     <div className="App-header">

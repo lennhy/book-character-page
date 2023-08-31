@@ -35,20 +35,6 @@
   cursor: pointer;
 }
 
-/* .category-image:hover::after {
-  content: "this is";
-  position: absolute;
-  top: 40%;
-  text-align: center;
-} 
-/* @keyframes expand {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.5);
-  }
-} */
 .image-gallery {
   display: flex;
   flex-flow: row;

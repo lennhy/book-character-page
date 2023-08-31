@@ -1,3 +1,5 @@
+import "./film-page.css";
+
 export default function FilmPage() {
     return (
         <>

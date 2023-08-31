@@ -6,6 +6,7 @@
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navigation a {
@@ -21,7 +22,8 @@
   text-transform: capitalize;
 }
 
-.navigation a.nav-links:hover {
+.right a.nav-links:hover, .left a.nav-links:hover {
+  transition-duration: 0.5s;
   transform: skew(-5deg);
   padding: 10px;
   background-position: right bottom;
@@ -39,13 +41,15 @@
   align-items: center;
 }
 
-.flex-container.float-right {
-  justify-content: flex-end;
-  display: flex;
-  right: 0;
-  position: absolute;
-}
-
 #logo {
   color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+  .navigation a:not(:first-of-type) {
+    display: none;
+  }
+  .navigation .right {
+    display: none;
+  }
 }/*# sourceMappingURL=navbar.css.map */

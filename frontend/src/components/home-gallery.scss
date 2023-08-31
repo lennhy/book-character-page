@@ -15,6 +15,7 @@
     color: #fff;
     text-decoration: none;
 }
+justify-content: center;
 } /*# sourceMappingURL=gallery.css.map */
 
 
@@ -46,37 +47,6 @@
 }
 
   @keyframes animate {
-    // 0%, 100% {
-    //   background-position: top;
-    // }
-   
-    // 75% {
-    //   background-position: bottom;
-    // }   
-    // 0%, 100% {
-    //   background-position: left top;
-    // }
-    // 25%{
-    //   background-position: right bottom;
-    //  }
-    // 50% {
-    //   background-position: left bottom;
-    // }
-    // 75% {
-    //   background-position: right top;
-    // }  
-    // 0%, 100% {
-    //   background-position: left top;
-    // }
-    // 25%{
-    //   background-position: right bottom;
-    //  }
-    // 50% {
-    //   background-position: right top;
-    // }
-    // 75% {
-    //   background-position: left bottom;
-    // }  
     50% {background-position: center;}
  
 }

@@ -30,26 +30,10 @@
 .category-image:hover {
   scale: 1.35;
   transform: skew(-5deg);
-  // transform: translate(20px, 10px);
-  //  transform: rotateY(-150deg); 
   position: relative;
   z-index: 1;
   cursor: pointer;
 }
-/* .category-image:hover::after {
-  content: "this is";
-  position: absolute;
-  top: 40%;
-  text-align: center;
-} 
-/* @keyframes expand {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.5);
-  }
-} */
 
 
 
@@ -60,7 +44,6 @@
   flex-flow: row;
   flex-wrap: wrap;
   margin: 0px;
-  // align-items: ;
   justify-content: center;
 }
 .category-image__image {

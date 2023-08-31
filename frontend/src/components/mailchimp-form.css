@@ -22,7 +22,6 @@ form.mc__form {
   margin: 10px;
   height: 40px;
   background: #d5cbcb;
-  /* color: #fff; */
 }
 
 .form-input::-moz-placeholder {
@@ -45,4 +44,11 @@ form.mc__form {
 
 .newsletter-container {
   height: 100vh;
+}
+
+@media screen and (max-width: 450px) {
+  form.mc__form {
+    width: 90%;
+    padding: 50px;
+  }
 }/*# sourceMappingURL=mailchimp-form.css.map */

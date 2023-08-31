@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 @media (min-width: 1280px) {
   .home-gallery {
