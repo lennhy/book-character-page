@@ -75,6 +75,7 @@ body {
 // ------------------------- | ANIMATION  | -------------------------
 // Back and fourth animation
 .loading{
+  display: block;
   background-color: $dark;
   height: 100%;
   width: 100%;
