@@ -82,7 +82,7 @@ body {
   z-index: 7;
 }
 .loading .loading__load-ruler{
-  animation: loadanimation 10s infinite ease-in-out;
+  animation: loadanimation 6s ease-in-out;
   width: 100px;
   height: 40px;
   position: absolute;
@@ -92,7 +92,7 @@ body {
 }
 
 .loading__load-ruler--2{
-  animation: loadanimation-reverse 10s infinite ease-in-out;
+  animation: loadanimation-reverse 6s ease-in-out;
   width: 100px;
   height: 40px;
   position: absolute;
