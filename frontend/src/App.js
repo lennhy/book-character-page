@@ -24,10 +24,10 @@ function App() {
   // Logic for naimation load - Use same animation for navigation menu
 
   document.onreadystatechange = () => {
-    console.log(document.readyState)
     if (document.readyState !== "complete") {
-            setLoading(true)
+        setLoading(true)
     } else {
+      setLoadText("polyverge")
       setTimeout(()=>{
         setLoading(false)
       }, 2000)

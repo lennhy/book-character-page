@@ -116,7 +116,9 @@ body {
 }
 
 // ------------------------- | MEDIA  | -------------------------
+@media screen and (max-width: 450px) {
 
-.loading-text{
-  font-size: 20px;
+  .loading-text{
+    font-size: 20px;
+  }
 }
