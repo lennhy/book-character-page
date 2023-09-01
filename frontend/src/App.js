@@ -22,7 +22,7 @@ function App() {
   const [loadText, setLoadText] = useState("loading");
 
   // Logic for naimation load - Use same animation for navigation menu
-
+useEffect(()=>{
   document.onreadystatechange = () => {
     if (document.readyState !== "complete") {
         setLoading(true)
@@ -33,7 +33,9 @@ function App() {
       // }, 2000)
     }
     console.log(loading)
-};
+  };
+})
+
 
   let toggleVisibility = () =>{
     isVisible ? setIsVisible(false) :  setIsVisible(true)
