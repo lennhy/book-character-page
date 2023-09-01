@@ -35,3 +35,82 @@ body {
   margin-top:100px;
   color: #fff;
 }
+
+.loading{
+  background-color: $dark;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+}
+.loading .loading__load-ruler{
+  animation: load-brand-animation 4s ease-in-out;
+  height: 25vh;
+  position: absolute;
+  background-color: $light;
+  top: 35%;
+  z-index: 9;
+}
+.loading-text{
+  position: absolute;
+  top: 32%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 25vh;
+  color: #fff;
+  // color: #0F0F0F;
+  text-transform: uppercase;
+  z-index: 9;
+  height: 25vh;
+}
+
+
+@keyframes load-brand-animation {
+  0%   {width:0%}
+  100% {width:100%; }
+}
+
+
+// ------------------------- |  | -------------------------
+// Back and fourth animation
+.loading{
+  background-color: $dark;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 7;
+}
+.loading .loading__load-ruler{
+  animation: loadanimation 10s infinite ease-in-out;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  background-color: $light;
+  z-index: 8;
+}
+
+.loading__load-ruler--2{
+  animation: loadanimation-reverse 10s infinite ease-in-out;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  background-color: $light;
+  bottom: 0;
+  right:0px;
+  z-index: 8;
+}
+@keyframes loadanimation-reverse {
+  0% , 100%  {width:0}
+  25% {width:100%; }
+  50%  {width:0}
+  75% {width:100%; }
+}
+
+@keyframes loadanimation {
+  0% , 100%  {width:0}
+  25% {width:100%; }
+  50%  {width:0}
+  75% {width:100%; }
+}

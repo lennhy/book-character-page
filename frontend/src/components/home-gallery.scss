@@ -16,6 +16,7 @@
     text-decoration: none;
 }
 justify-content: center;
+
 } /*# sourceMappingURL=gallery.css.map */
 
 
@@ -53,9 +54,10 @@ justify-content: center;
 
 @media screen and (max-width: 450px) {
   .category-image__image {
-  
     height: 200px;
     margin: 5px;
-   
-}
+  }
+  .home-gallery{
+    margin-top: 100px;
+  }
 }
