@@ -78,7 +78,7 @@ body {
 }
 .loading {
   background-color: #0f0f0f;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: absolute;
   z-index: 7;
@@ -132,4 +132,7 @@ body {
   75% {
     width: 100%;
   }
+}
+.loading-text {
+  font-size: 20px;
 }/*# sourceMappingURL=App.css.map */
