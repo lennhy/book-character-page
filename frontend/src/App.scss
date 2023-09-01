@@ -72,11 +72,11 @@ body {
 }
 
 
-// ------------------------- |  | -------------------------
+// ------------------------- | ANIMATION  | -------------------------
 // Back and fourth animation
 .loading{
   background-color: $dark;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: absolute;
   z-index: 7;
@@ -113,4 +113,10 @@ body {
   25% {width:100%; }
   50%  {width:0}
   75% {width:100%; }
+}
+
+// ------------------------- | MEDIA  | -------------------------
+
+.loading-text{
+  font-size: 20px;
 }

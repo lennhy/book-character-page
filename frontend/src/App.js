@@ -45,7 +45,6 @@ function App() {
         <div className="loading__load-ruler"></div>
         <div className="loading-text">{loadText}</div>
         <div className="loading__load-ruler--2"></div>
-
       </div>
         <div className="nav-links" onClick={toggleVisibility}>
               <span className="box-shadow-menu"></span>
@@ -54,7 +53,7 @@ function App() {
         <MobileNavbar scale={isVisible ? 'scale-up-menu' : 'scale-down-menu'} toggle={toggleVisibility}>
         </MobileNavbar>
 
-        <Routes>
+        <Routes >
           <Route path="/" element={<HomeGallery />}></Route>
           <Route path="/film" element={<FilmPage />}></Route>
           <Route path="/novels" element={<NovelPage />}></Route>
