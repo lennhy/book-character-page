@@ -27,10 +27,10 @@ function App() {
     if (document.readyState !== "complete") {
         setLoading(true)
     } else {
-      setLoadText("polyverge")
-      setTimeout(()=>{
+      // setLoadText("polyverge")
+      // setTimeout(()=>{
         setLoading(false)
-      }, 2000)
+      // }, 2000)
     }
     console.log(loading)
 };
