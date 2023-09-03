@@ -1,4 +1,4 @@
-import FlipBox from "./FlipBox";
+import FlipBox from "../components/FlipBox/FlipBox";
 
 export default function NovelPage() {
     return (

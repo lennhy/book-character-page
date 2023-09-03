@@ -1,4 +1,4 @@
-import "./image-content.css";
+import "../components/ImageContent/image-content.css";
 
 export default function IllustrationsPage() {
     const bucketFolder = "http://polyverge-images.s3-website-us-east-1.amazonaws.com/illustrations/"

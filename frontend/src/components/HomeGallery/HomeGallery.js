@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"; // import Link in addition to other Components
-import ImageContent from "./ImageContent.js";
+import ImageContent from "../ImageContent/ImageContent.js";
 import "./home-gallery.css";
-import "../App.css";
+import "../../App.css";
 
 export default function HomeGallery() {
   const categories = ["illustrations", "novels", "film"];

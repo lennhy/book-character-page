@@ -3,17 +3,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom"; // import Link in addition to other Components
 import { useEffect, useState } from 'react';
 import "./App.css";
-import HomeGallery from "./components/HomeGallery.js";
-import NovelPage from "./components/NovelPage";
-import FilmPage from "./components/FilmPage";
-import ComicPage from "./components/ComicPage";
-import Navbar from "./components/Navbar";
-import MobileNavbar from "./components/MobileNavbar";
-
-
-import BookToMoviesList from "./components/BooksToMoviesList";
-import IllustrationsPage from "./components/IllustrationsPage";
-import MailchimpForm from "./components/MailchimpForm";
+import Navbar from "./components/Navbar/Navbar";
+import HomeGallery from "./components/HomeGallery/HomeGallery";
+import MobileNavbar from "./components/MobileNavbar/MobileNavbar";
+import BookToMoviesList from "./components/BooksToMoviesList/BooksToMoviesList";
+import IllustrationsPage from "./Pages/IllustrationsPage";
+import MailchimpForm from "./components/MailchimpForm/MailchimpForm";
+import NovelPage from "./Pages/NovelPage";
+import FilmPage from "./Pages/FilmPage";
+import ComicPage from "./Pages/ComicPage";
 
 // Root
 function App() {

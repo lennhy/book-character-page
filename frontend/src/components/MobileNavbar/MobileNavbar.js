@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"; // import Link in addition to other Components
 import { useState, useEffect } from 'react';
 import "./mobile-navbar.css";
-import "./navbar.css";
+import "../Navbar/navbar.css";
 
 // import logo from "../logo.svg";
 
