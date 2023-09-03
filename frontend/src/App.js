@@ -20,18 +20,18 @@ function App() {
   const [loadText, setLoadText] = useState("polyverge");
 
   // Logic for naimation load - Use same animation for navigation menu
-useEffect(()=>{
-  document.onreadystatechange = () => {
-    if (document.readyState !== "complete") {
-        setLoading(true)
-    } else {
+// useEffect(()=>{
+  // document.onreadystatechange = () => {
+  //   if (document.readyState !== "complete") {
+  //       setLoading(true)
+  //   } else {
       setTimeout(()=>{
         setLoading(false)
       }, 2000)
-    }
-    console.log(loading)
-  };
-})
+  //   }
+  //   console.log(loading)
+  // };
+// })
 
 
   let toggleVisibility = () =>{
