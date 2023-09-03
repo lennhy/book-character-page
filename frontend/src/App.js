@@ -17,7 +17,7 @@ import ComicPage from "./Pages/ComicPage";
 function App() {
   const [isVisible, setIsVisible] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [loadText, setLoadText] = useState("loading");
+  const [loadText, setLoadText] = useState("polyverge");
 
   // Logic for naimation load - Use same animation for navigation menu
 useEffect(()=>{
@@ -25,10 +25,9 @@ useEffect(()=>{
     if (document.readyState !== "complete") {
         setLoading(true)
     } else {
-      // setLoadText("polyverge")
-      // setTimeout(()=>{
+      setTimeout(()=>{
         setLoading(false)
-      // }, 2000)
+      }, 2000)
     }
     console.log(loading)
   };

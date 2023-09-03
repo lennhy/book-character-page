@@ -46,15 +46,6 @@ body {
   z-index: 9;
 }
 
-.loading .loading__load-ruler {
-  animation: load-brand-animation 4s ease-in-out;
-  height: 25vh;
-  position: absolute;
-  background-color: #fff;
-  top: 35%;
-  z-index: 9;
-}
-
 .loading-text {
   position: absolute;
   top: 32%;
@@ -86,7 +77,6 @@ body {
 }
 
 .loading .loading__load-ruler {
-  animation: loadanimation 6s ease-in-out;
   width: 100px;
   height: 40px;
   position: absolute;
@@ -96,7 +86,6 @@ body {
 }
 
 .loading__load-ruler--2 {
-  animation: loadanimation-reverse 6s ease-in-out;
   width: 100px;
   height: 40px;
   position: absolute;
