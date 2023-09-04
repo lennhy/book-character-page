@@ -2,7 +2,6 @@
   background-color: transparent;
   position: fixed;
   top: 0;
-  padding: 10px;
   display: flex;
   width: 100%;
   align-items: center;
@@ -23,6 +22,7 @@
 }
 
 .right a.nav-links:hover, .left a.nav-links:hover {
+  display: inline-block;
   transition-duration: 0.5s;
   transform: skew(-5deg);
   padding: 10px;
@@ -51,5 +51,8 @@
   }
   .navigation .right {
     display: none;
+  }
+  .left {
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=navbar.css.map */

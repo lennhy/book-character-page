@@ -37,7 +37,7 @@
 .box-shadow-menu {
   position: fixed;
   padding-left: 1.25em;
-  right: 40px;
+  right: 10px;
   top: 10px;
   display: none;
   z-index: 6;
@@ -83,8 +83,5 @@
 @media screen and (max-width: 450px) {
   .box-shadow-menu {
     display: block;
-  }
-  .flip-box {
-    width: 80%;
   }
 }/*# sourceMappingURL=mobile-navbar.css.map */

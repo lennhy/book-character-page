@@ -81,6 +81,7 @@ body {
   width: 100%;
   position: absolute;
   z-index: 7;
+  top: 0;
 }
 .loading .loading__load-ruler{
   animation: loadanimation 6s ease-in-out;
@@ -90,6 +91,7 @@ body {
   top: 0;
   background-color: $light;
   z-index: 8;
+  transform: skew(-50deg);
 }
 
 .loading__load-ruler--2{
@@ -101,6 +103,7 @@ body {
   bottom: 0;
   right:0px;
   z-index: 8;
+  transform: skew(-50deg);
 }
 @keyframes loadanimation-reverse {
   0% , 100%  {width:0}

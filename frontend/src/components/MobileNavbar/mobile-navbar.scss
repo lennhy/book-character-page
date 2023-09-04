@@ -37,7 +37,7 @@
 .box-shadow-menu {
   position: fixed;
   padding-left: 1.25em;
-  right: 40px;
+  right: 10px;
   top: 10px;
   display: none;
   z-index: 6;
@@ -111,8 +111,4 @@
     display: block;
   }
 
-  .flip-box{
-    width: 80%;
-  
-  }
 }

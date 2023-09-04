@@ -33,20 +33,14 @@ function App() {
   // };
 // })
 
-
   const toggleVisibility = () =>{
    if(toggleState === "0"){
     setToggleState("100%")
    }else{
     setToggleState("0")
    }
-  
-    // if(toggleState !== "scale-up-menu"){
-    //   setToggleState("scale-up-menu")
-    // } else{
-    //   setToggleState("scale-down-menu")
-    // }
   }
+
   return (
     <div className="App">
       <BrowserRouter>

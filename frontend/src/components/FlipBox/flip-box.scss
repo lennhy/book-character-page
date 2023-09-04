@@ -4,7 +4,7 @@
     height: 500px;
     border: none;
     perspective: 1000px;
-    
+    // transform: skew(-5deg);
   }
   
   .flip-box-inner {
@@ -38,3 +38,11 @@
     color: white;
     transform: rotateY(180deg);
   }
+
+  @media screen and (max-width: 450px) {
+
+  .flip-box{
+    width: 80%;
+  }
+
+}

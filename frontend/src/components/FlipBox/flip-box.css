@@ -35,4 +35,10 @@
   background-color: #181818;
   color: white;
   transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 450px) {
+  .flip-box {
+    width: 80%;
+  }
 }/*# sourceMappingURL=flip-box.css.map */
