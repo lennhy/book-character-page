@@ -37,7 +37,7 @@
 .box-shadow-menu {
   position: fixed;
   padding-left: 1.25em;
-  right: 10px;
+  right: 15px;
   top: 10px;
   display: none;
   z-index: 6;
