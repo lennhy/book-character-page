@@ -8,7 +8,7 @@ import "../Navbar/navbar.css";
 const MobileNavbar = ({scale, toggle}) => {
   return (
     <>
-      <nav className={`mobile-navigation ${scale}`}>
+      <nav className="mobile-navigation" style={{'width': scale}}>
           <NavLink className="nav-links" to="/" onClick={toggle}>Home</NavLink>
           <NavLink className="nav-links" to="/illustrations" onClick={toggle}>Illustrations</NavLink>
           <NavLink className="nav-links" to="/film" onClick={toggle}>Film</NavLink>

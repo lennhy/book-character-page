@@ -1,14 +1,17 @@
 .mobile-navigation{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 0;
   height: 100vh;
   position: absolute;
-  right: -1000px;
+  right: 0;
   background-color: #0F0F0F;
   top: 0;
   justify-content: center;
   z-index: 5;
+  overflow-x: hidden;
+  transition: 0.5s;
+  transition-delay: .5s;
 }
 
 .mobile-navigation a{
@@ -57,43 +60,47 @@
     left: 0;
     position: absolute;
     top: 0.25em;
-    width: 2em;
+    width: 100%;
 }
 
 // ---------------------- | Animation | -----------------------
 
 .scale-up-menu {
-  animation: expand .5s;
-  animation-fill-mode: forwards ;
+  animation: expand .75s;
+  animation-delay: .5s;
+  // animation-fill-mode: forwards ;
 }
 
 .scale-down-menu {
-  animation: shrink .5s;
-  animation-fill-mode: forwards ;
-  animation-delay: .75s;
+  animation: shrink .75s;
+  animation-delay: .5s;
+  // animation-fill-mode: forwards ;
 }
 
 @keyframes expand{
   0% {
-    transform:scale(0);
-    right: -450px;
+    // transform:scale(0);
+    // right: -450px;
+    width: 0;
   }
   100% {
-    transform:scale(1);
-    right: 0px;
-
+    // transform:scale(1);
+    // right: 0px;
+    width: 100%;
   }
 }
 
 @keyframes shrink{
   0% {
-    transform:scale(1);
-    right: 0px;
+    width: 100%;
+    // transform:scale(1);
+    // right: 0px;
 
   }
   100% {
-    transform:scale(0);
-    right: -450px;
+    width: 0;
+    // transform:scale(0);
+    // right: -450px;
   }
 }
 
@@ -102,5 +109,10 @@
 @media screen and (max-width: 450px) {
   .box-shadow-menu{
     display: block;
+  }
+
+  .flip-box{
+    width: 80%;
+  
   }
 }

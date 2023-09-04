@@ -15,7 +15,7 @@ import ComicPage from "./Pages/ComicPage";
 
 // Root
 function App() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [toggleState, setToggleState] = useState("0");
   const [loading, setLoading] = useState(true);
   const [loadText, setLoadText] = useState("polyverge");
 
@@ -34,8 +34,18 @@ function App() {
 // })
 
 
-  let toggleVisibility = () =>{
-    isVisible ? setIsVisible(false) :  setIsVisible(true)
+  const toggleVisibility = () =>{
+   if(toggleState === "0"){
+    setToggleState("100%")
+   }else{
+    setToggleState("0")
+   }
+  
+    // if(toggleState !== "scale-up-menu"){
+    //   setToggleState("scale-up-menu")
+    // } else{
+    //   setToggleState("scale-down-menu")
+    // }
   }
   return (
     <div className="App">
@@ -46,10 +56,10 @@ function App() {
         <div className="loading__load-ruler--2"></div>
       </div>
         <div className="nav-links" onClick={toggleVisibility}>
-              <span className="box-shadow-menu"></span>
+              <div className="box-shadow-menu"></div>
         </div>
         <Navbar />
-        <MobileNavbar scale={isVisible ? 'scale-up-menu' : 'scale-down-menu'} toggle={toggleVisibility}>
+        <MobileNavbar scale={toggleState} toggle={toggleVisibility}>
         </MobileNavbar>
 
         <Routes >
