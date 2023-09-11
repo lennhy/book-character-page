@@ -2,6 +2,7 @@
 @use "./styles/partials/variables" as *;
 @use "./styles/partials/mixins" as *;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Raleway&display=swap');
+// @import url('./fonts/fonts.css');
 
 
 * {
@@ -10,6 +11,9 @@
 body {
   margin: 0;
   background-color: $dark;
+  // font-family: 'formula-bold-regular', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
 }
 .App {
   text-align: center;
