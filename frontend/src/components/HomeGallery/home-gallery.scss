@@ -29,9 +29,14 @@ justify-content: center;
 }
 
 .intro-landing div {
-  width: 75%;
-  font-size: 3rem;
-  text-transform: capitalize;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // margin-bottom: 100px;
+  margin-top: -100px;
+  font-size: 2rem;
+  width: 45%;
 }
 
 // Home Gallery text animation ---------------->
@@ -68,11 +73,11 @@ justify-content: center;
 
 @media screen and (max-width: 450px) {
   .category-image__image {
-    height: 200px;
+    // height: 200px;
     margin: 5px;
   }
   .home-gallery{
-    margin-top: 100px;
+    // margin-top: 100px;
   }
   .intro-landing {
     display: flex;
@@ -81,10 +86,12 @@ justify-content: center;
     /* width: 425px; */
     align-items: center;
     margin-top: 100px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
 }
   .intro-landing div{
     font-size: 1.5rem;
+    width: 50%;
+    margin-top: 0;
   }
     
 }

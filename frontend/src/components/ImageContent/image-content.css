@@ -1,16 +1,18 @@
 .category-image {
   position: relative;
-  margin: 0 5px;
+  margin: 0 10px;
   transition: 0.35s ease-in-out;
   z-index: 0;
   flex-flow: column;
 }
 
 .category-image__image {
-  width: auto;
-  height: 350px;
   z-index: 0;
   border-radius: 5px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
 }
 
 .category-image__text {
@@ -41,10 +43,6 @@
   flex-wrap: wrap;
   margin: 0px;
   justify-content: center;
-}
-
-.category-image__image {
-  height: 300px;
 }
 
 .image-gallery__thumb img {
