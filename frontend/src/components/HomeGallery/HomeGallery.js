@@ -14,17 +14,17 @@ export default function HomeGallery() {
           {/* <h3>Provocative and visceral content that inspires and entertains through art and storytelling</h3> */}
         </div>
       </section>
-    <div className="App-header">
-   
-    <div className="backgroun-image"></div>
-     
-      <section className="home-gallery">
-        {categories.map((cat, i) => (
-                  <NavLink to={`/${cat}`} key={cat}>
-                  <ImageContent key={cat} category={cat} index={i} /></NavLink>
-        ))}
-      </section>
-    </div>
+      <div className="App-header">
+        <div className="backgroun-image"></div>
+        <div className="intro-landing"><div>provocative and visceral content that inspires and entertains through art and storytelling</div></div>
+
+          <section className="home-gallery">
+            {categories.map((cat, i) => (
+                      <NavLink to={`/${cat}`} key={cat}>
+                      <ImageContent key={cat} category={cat} index={i} /></NavLink>
+            ))}
+          </section>
+      </div>
     </section>
   )
 }

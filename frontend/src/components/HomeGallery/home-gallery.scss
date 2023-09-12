@@ -1,5 +1,5 @@
-@use "../styles/partials/global" as *;
-@use "../styles/partials/mixins" as *;
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
 
 .home-gallery {
   // @extend .flex-standard;
@@ -19,6 +19,20 @@ justify-content: center;
 
 } /*# sourceMappingURL=gallery.css.map */
 
+.intro-landing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 425px; */
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.intro-landing div {
+  width: 75%;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
 
 // Home Gallery text animation ---------------->
 .text-container {
@@ -60,4 +74,17 @@ justify-content: center;
   .home-gallery{
     margin-top: 100px;
   }
+  .intro-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 425px; */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+  .intro-landing div{
+    font-size: 1.5rem;
+  }
+    
 }
