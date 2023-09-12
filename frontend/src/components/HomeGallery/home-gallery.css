@@ -48,8 +48,8 @@
   flex-direction: column;
   justify-content: center;
   margin-top: -100px;
-  font-size: 2rem;
-  width: 45%;
+  font-size: 3rem;
+  width: 75%;
 }
 
 .text-container {
@@ -95,8 +95,8 @@
     margin-bottom: 100px;
   }
   .intro-landing div {
-    font-size: 1.5rem;
-    width: 50%;
+    font-size: 2rem;
+    width: 75%;
     margin-top: 0;
   }
 }/*# sourceMappingURL=home-gallery.css.map */
