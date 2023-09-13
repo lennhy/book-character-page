@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
         <div className="right">
           <NavLink className="nav-links" to="/newsletter">Newsletter</NavLink>
-          <NavLink className="nav-links" to="//www.polyverge.com" target={"_blank"} rel="noopener noreferrer">Shop</NavLink>
+          <NavLink className="nav-links" to="//www.polyverge.shop" target={"_blank"} rel="noopener noreferrer">Shop</NavLink>
         </div>
       </nav>
     </>
