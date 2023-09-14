@@ -14,7 +14,7 @@ const MobileNavbar = ({scale, toggle}) => {
           <NavLink className="nav-links" to="/film" onClick={toggle}>Film</NavLink>
           <NavLink className="nav-links" to="/novels" onClick={toggle}>Novels</NavLink>
           <NavLink className="nav-links" to="/newsletter" onClick={toggle}>Newsletter</NavLink>
-          <NavLink className="nav-links" to="//www.polyverge.com"  onClick={toggle} target={"_blank"} rel="noopener noreferrer">Shop</NavLink>
+          <NavLink className="nav-links" to="//www.polyverge.shop"  onClick={toggle} target={"_blank"} rel="noopener noreferrer">Shop</NavLink>
       </nav>
     </>
   );
