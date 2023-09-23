@@ -1,9 +1,11 @@
 const express = require('express')
 const app = express()
 const port = 6500
-const topbooksApi = require('./routes/api');
-// const landingPage = require('./landing');
+const bodyParser = require('body-parser')
 
+const topbooksApi = require('./routes/topbooks');
+const subscribers = require('./routes/subscribers');
+// const landingPage = require('./landing');
 const cors = require('cors');
 app.use(cors({
     origin: 'http://localhost:3000', // use your actual domain name (or localhost), using * is not recommended
@@ -11,6 +13,10 @@ app.use(cors({
     allowedHeaders: ['Content-Type', 'Origin', 'X-Requested-With', 'Accept', 'x-client-key', 'x-client-token', 'x-client-secret', 'Authorization'],
     credentials: true
 }))
+// app.use(express.urlencoded({ extended: false }))
+app.use(express.json());
+app.use(cors())
+
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
@@ -18,3 +24,4 @@ app.listen(port, () => {
 
 
 app.use('/topbooks', topbooksApi);
+app.use('/subscribers', subscribers);
