@@ -9,7 +9,7 @@ export default function MailchimpForm() {
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
-  const [message, setMessage] = useState('Join the Exclusive Newsletter for Our Upcoming Novel!');
+  const [message, setMessage] = useState('Join our Exclusive Newsletter for Our Upcoming Novel: "What Gods Lie Below");
 
   const handleSubmit = (e) =>{
     e.preventDefault()
