@@ -1,7 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom"; // import Link in addition to other Components
 import { useState } from 'react';
 import "./navbar.css";
-import logo from '../../assets/polyverge-logo.jpg';
+import logo from '../../assets/polyverge-logo.png';
 
 // import logo from "../logo.svg";
 
