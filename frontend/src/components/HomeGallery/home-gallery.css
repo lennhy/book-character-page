@@ -70,9 +70,6 @@
 
 .App-header {
   margin: 0;
-  background: url("../../assets/paralysis.jpg");
-  background-repeat: repeat;
-  animation: animate 60s ease-in-out infinite;
   text-align: center;
 }
 
