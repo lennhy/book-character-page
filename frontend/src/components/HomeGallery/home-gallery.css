@@ -69,8 +69,8 @@
 }
 
 .background-banner{
-  font-size: 22rem;
-  letter-spacing: -20px;
+  font-size: 20vw;
+  letter-spacing: -15px;
   font-family: "Oswald", serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
@@ -78,7 +78,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 75px;
+    top: 55px;
 }
 
 .App-header {
