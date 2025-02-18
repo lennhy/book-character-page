@@ -2,6 +2,7 @@
 @use "./styles/partials/variables" as *;
 @use "./styles/partials/mixins" as *;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet');
 // @import url('./fonts/fonts.css');
 
 
@@ -28,6 +29,7 @@ body {
   /* font-size: calc(10px + 2vmin); */
   color: white;
 }
+
 
 .flex-center{
   display: flex;

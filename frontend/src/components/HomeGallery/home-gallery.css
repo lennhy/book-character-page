@@ -43,13 +43,13 @@
 }
 
 .intro-landing div {
-  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: -100px;
-  font-size: 3rem;
+  font-size: 1.5rem;
   width: 75%;
+  text-transform: uppercase;
 }
 
 .text-container {
@@ -68,9 +68,22 @@
   color: #e3e0e0;
 }
 
+.background-banner{
+  font-size: 22rem;
+  letter-spacing: -20px;
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 75px;
+}
+
 .App-header {
   margin: 0;
-  background: url("../../assets/paralysis.jpg");
+  /* background: url("../../assets/paralysis.jpg"); */
   background-repeat: repeat;
   animation: animate 60s ease-in-out infinite;
   text-align: center;

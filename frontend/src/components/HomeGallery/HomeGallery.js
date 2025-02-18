@@ -15,8 +15,8 @@ export default function HomeGallery() {
         </div>
       </section>
       <div className="App-header">
-        <div className="backgroun-image"></div>
-        <div className="intro-landing"><div>Provocative and visceral content that inspires and entertains through art and storytelling</div></div>
+        <div className="background-banner">POLYVERGE</div>
+        {/* <div className="intro-landing"><div>Provocative and visceral storytelling</div></div> */}
 
           <section className="home-gallery">
             {categories.map((cat, i) => (
