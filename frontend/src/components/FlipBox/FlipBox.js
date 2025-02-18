@@ -8,7 +8,7 @@ export default function FlipBox() {
             <div className="flip-box">
                 <div className="flip-box-inner">
                     <div className="flip-box-front flex-center">
-                    <h2>Children of The Pantheon</h2>
+                    <h2>What Gods Lie Below</h2>
                     </div>
                     <div className="flip-box-back flex-center">
                     <p>Coming Soon. </p>

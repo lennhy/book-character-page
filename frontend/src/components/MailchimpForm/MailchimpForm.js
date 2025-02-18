@@ -10,7 +10,7 @@ export default function MailchimpForm() {
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
-  const [message, setMessage] = useState('Join the Exclusive Newsletter for Our Upcoming Novel!');
+  const [message, setMessage] = useState('Join our exclusive newsletter for our upcoming novel: What Gods Lie Below');
 
   // useEffect(() => {
   //   console.log("ran")
