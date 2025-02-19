@@ -22,8 +22,8 @@ const Navbar = () => {
     <>
       <nav className="navigation">
         <div className="left">
-          <NavLink className="nav-links" to="/">POLYVERGE</NavLink>
-          {addSubNav()}
+        <NavLink id="logo" to="/"> <img src={logo} className="" alt="logo"/> </NavLink>
+        {addSubNav()}
         </div>
         <div className="right">
           <NavLink className="nav-links" to="/newsletter">Newsletter</NavLink>

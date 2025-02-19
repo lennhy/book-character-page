@@ -12,7 +12,7 @@
 .navigation a {
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  padding-left: 10px;
   background: #ff3232;
   /* Old browsers */
   background: linear-gradient(to right, transparent 50%, #ffffff 50%);
@@ -32,7 +32,7 @@
 }
 
 .navigation img {
-  width: 125px;
+  width: 75px;
   height: auto;
 }
 
@@ -44,6 +44,8 @@
 
 #logo {
   color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 450px) {
