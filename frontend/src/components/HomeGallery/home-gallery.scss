@@ -14,6 +14,8 @@
   a {
     color: #fff;
     text-decoration: none;
+    height: 400px;
+    padding: 20px;
 }
 justify-content: center;
 
@@ -68,10 +70,6 @@ justify-content: center;
 }
 .App-header{
   margin: 0;
-  
-  background: url("../../assets/paralysis.jpg");
-  // top: -500px;
-  background-repeat: repeat;
   // background-size: cover;
   // background-clip:text;
   animation: animate 60s ease-in-out infinite;
@@ -89,7 +87,7 @@ justify-content: center;
     margin: 5px;
   }
   .home-gallery{
-    // margin-top: 100px;
+    margin-top: 100px;
   }
   .intro-landing {
     display: flex;
@@ -105,5 +103,20 @@ justify-content: center;
     width: 75%;
     margin-top: 0;
   }
+  .background-banner{
+    font-size: 20vw;
+    letter-spacing: -5px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    /* font-style: normal; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45px;
+  }
+  .home-gallery a {
+    height: auto;
+    padding: 20px;
+}
     
 }

@@ -1,7 +1,7 @@
 //  ----------------- | Images for landing page | ------------------------
 .category-image {
   position: relative;
-  margin: 0 10px;
+  margin: 0 5px;
   transition: 0.35s ease-in-out;
   z-index: 0;
   flex-flow: column;
@@ -9,18 +9,15 @@
 .category-image__image {
   z-index: 0;
   border-radius: 5px;
-  height: 350px;
+  // height: 350px;
   object-fit: cover;
-  width: 250px;
+  // width: 250px;
 }
 .category-image__text {
   position: absolute;
-    bottom: 10px;
-    left: 10px;
-    /* right: 0; */
-    text-transform: capitalize;
-    font-size: 1.5rem;
-
+  bottom: 5%;
+  left: 5%;
+  text-transform: uppercase;
 }
 .category-image--hover {
   /* animation: expand 0.5s; */

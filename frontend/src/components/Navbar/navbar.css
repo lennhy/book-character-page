@@ -19,7 +19,7 @@
   background-size: 210% 100%;
   background-position: left bottom;
   transition: all 0.5s ease;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .right a.nav-links:hover, .left a.nav-links:hover {
@@ -32,8 +32,8 @@
 }
 
 .navigation img {
-    height: 100px;
-    width: auto;
+  width: 125px;
+  height: auto;
 }
 
 .flex-container {

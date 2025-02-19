@@ -1,6 +1,6 @@
 .category-image {
   position: relative;
-  margin: 0 10px;
+  margin: 0 5px;
   transition: 0.35s ease-in-out;
   z-index: 0;
   flex-flow: column;
@@ -9,19 +9,15 @@
 .category-image__image {
   z-index: 0;
   border-radius: 5px;
-  height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 250px;
-  box-shadow: 0 5px 30px rgba(0,0,0,.9);
 }
 
 .category-image__text {
   position: absolute;
-  top: 40%;
-  left: 0;
-  right: 0;
-  text-transform: capitalize;
+  bottom: 5%;
+  left: 5%;
+  text-transform: uppercase;
 }
 
 .category-image--hover {
