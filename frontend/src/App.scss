@@ -2,7 +2,7 @@
 @use "./styles/partials/variables" as *;
 @use "./styles/partials/mixins" as *;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 // @import url('./fonts/fonts.css');
 
 
@@ -14,14 +14,14 @@ body {
   background-color: $dark;
   // font-family: 'formula-bold-regular', sans-serif;
   font-family: "Oswald", serif;
-  font-weight: bold;
+  font-weight: 700;
 }
 .App {
   text-align: center;
 }
 
 .App-header {
-  min-height: 100vh;
+  // min-height: 100vh;
   display: flex;
   flex-direction: column;
   // align-items: center;

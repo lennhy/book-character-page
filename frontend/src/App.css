@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Raleway&display=swap");
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet'); */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 * {
   margin: 0;
 }
@@ -14,9 +13,8 @@
 body {
   margin: 0;
   background-color: #0f0f0f;
-  font-family: "Oswald", sans-serif;;
+  font-family: "Oswald", serif;
   font-weight: 700;
-  /* font-style: normal; */
 }
 
 .App {
@@ -24,7 +22,6 @@ body {
 }
 
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

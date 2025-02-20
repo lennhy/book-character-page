@@ -20,8 +20,7 @@ export default function HomeGallery() {
 
           <section className="home-gallery">
             {categories.map((cat, i) => (
-                      <NavLink to={`/${cat}`} key={cat}>
-                      <ImageContent key={cat} category={cat} index={i} /></NavLink>
+                      <ImageContent key={cat} category={cat} index={i} />
             ))}
           </section>
       </div>

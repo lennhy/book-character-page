@@ -14,8 +14,8 @@
   a {
     color: #fff;
     text-decoration: none;
-    // height: 400px;
-    // padding: 20px;
+    height: 400px;
+    padding: 20px;
 }
 justify-content: center;
 
@@ -59,7 +59,7 @@ justify-content: center;
 .background-banner{
   font-size: 20vw;
   letter-spacing: -15px;
-  // font-family: "Oswald", serif;
+  font-family: "Oswald", serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   /* font-style: normal; */
@@ -87,7 +87,7 @@ justify-content: center;
     margin: 5px;
   }
   .home-gallery{
-    margin-top: 100px;
+    margin-top: 25px;
   }
   .intro-landing {
     display: flex;
@@ -106,13 +106,14 @@ justify-content: center;
   .background-banner{
     font-size: 20vw;
     letter-spacing: -5px;
-    font-family: "Oswald", serif;
+    // font-family: "Oswald", serif;
     font-optical-sizing: auto;
     /* font-style: normal; */
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 45px;
+    // position: absolute;
+    // left: 0;
+    // right: 0;
+    // top: 35px;
+    margin-top: 50px;
   }
   .home-gallery a {
     height: auto;
