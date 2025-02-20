@@ -12,7 +12,7 @@ const Navbar = () => {
     return(
       <>
       <NavLink className="nav-links" to="/illustrations">Art</NavLink>
-      <NavLink className="nav-links" to="/novels">Novels</NavLink>
+      <NavLink className="nav-links" to="/novels">Books</NavLink>
       </>
     );
     // }
@@ -23,11 +23,12 @@ const Navbar = () => {
       <nav className="navigation">
         <div className="left">
         <NavLink id="logo" to="/"> <img src={logo} className="" alt="logo"/> </NavLink>
-        {addSubNav()}
         </div>
         <div className="right">
+          {addSubNav()}
           <NavLink className="nav-links" to="/newsletter">Newsletter</NavLink>
           {/* <NavLink className="nav-links" to="//www.polyverge.shop" target={"_blank"} rel="noopener noreferrer">Shop</NavLink> */}
+        
         </div>
       </nav>
     </>

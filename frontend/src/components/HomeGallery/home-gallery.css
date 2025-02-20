@@ -30,7 +30,6 @@
 .home-gallery a {
   color: #fff;
   text-decoration: none;
-  height: 400px;
 }
 
 
@@ -72,7 +71,6 @@
 .background-banner {
   font-size: 20vw;
   letter-spacing: -15px;
-  font-family: "Oswald", serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   /* font-style: normal; */
