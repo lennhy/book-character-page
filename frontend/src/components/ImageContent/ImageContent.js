@@ -38,13 +38,11 @@ export default function ImageContent({ category, index }) {
         <iframe 
               width="420" 
               height="236.25" 
-              src={`${youtTubeVideos[index]}&showinfo=0&controls=0&autohid=1`}
+              src={`${youtTubeVideos[index]}`}
               title="YouTube video player" 
               frameborder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
               allowFullScreen
-              controls="0"
-              showinfo="0" 
               >
                 
             </iframe>

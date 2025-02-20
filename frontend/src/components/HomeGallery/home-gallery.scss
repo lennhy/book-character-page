@@ -67,6 +67,13 @@ justify-content: center;
     left: 0;
     right: 0;
     top: 100px;
+    // color: #fff;
+    color: #fff;
+    // animation-direction: alternate;
+    // animation: changecolor 10s linear infinite;
+    // transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+
+    
 }
 .App-header{
   margin: 0;
@@ -79,6 +86,12 @@ justify-content: center;
   @keyframes animate {
     50% {background-position: center;}
  
+}
+
+@keyframes changecolor {
+  0%   {color:#fff;}
+  50%  {color:#eda514;}
+  100%  {color: rgb(208, 11, 11)}
 }
 
 @media screen and (max-width: 450px) {
@@ -114,10 +127,17 @@ justify-content: center;
     // right: 0;
     // top: 35px;
     margin-top: 50px;
+    // color: #fff;
+    // animation-name: changecolor;
+    // animation-duration: 5s;
+    // animation-iteration-count: infinite;
+    // animation: effect 2s linear infinite;
+
   }
   .home-gallery a {
     height: auto;
     padding: 20px;
 }
+
     
 }

@@ -80,6 +80,7 @@
   left: 0;
   right: 0;
   top: 100px;
+  color: #fff;
 }
 
 .App-header {
@@ -91,6 +92,17 @@
 @keyframes animate {
   50% {
     background-position: center;
+  }
+}
+@keyframes changecolor {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #eda514;
+  }
+  100% {
+    color: rgb(208, 11, 11);
   }
 }
 @media screen and (max-width: 450px) {
