@@ -116,53 +116,55 @@ export default function MailchimpForm() {
   }
 
   return (
-        <section className="newsletter-container flex-center">
-          <form action={postURL} className="mc__form" onSubmit={handleSubmit} >
-            <div className="mc__field-container">
-            <h3 className="mc__title">{message}</h3>
+    <div class="nav-links"><div class="box-shadow-menu"> <h1>Under Constructon</h1></div></div>
+   
+      //   <section className="newsletter-container flex-center">
+      //     <form action={postURL} className="mc__form" onSubmit={handleSubmit} >
+      //       <div className="mc__field-container">
+      //       <h3 className="mc__title">{message}</h3>
 
-              <input
-                class="form-input"
-                id="first-name"
-                name="MERGE1"
-                onChange={e => setFirstName(e.target.value)} 
-                type="text"
-                value={firstName}
-                placeholder="First Name"
-                required={true} 
-              />
+      //         <input
+      //           class="form-input"
+      //           id="first-name"
+      //           name="MERGE1"
+      //           onChange={e => setFirstName(e.target.value)} 
+      //           type="text"
+      //           value={firstName}
+      //           placeholder="First Name"
+      //           required={true} 
+      //         />
 
-              <input
-                class="form-input"
-                id="last-name"
-                name="MERGE2"
-                onChange={e => setLastName(e.target.value)} 
-                type="text"
-                value={lastName}
-                placeholder="Last Name"
-                required={true} 
-              />
-              <input
-                class="form-input"
-                id="email"
-                name="MERGE0"
+      //         <input
+      //           class="form-input"
+      //           id="last-name"
+      //           name="MERGE2"
+      //           onChange={e => setLastName(e.target.value)} 
+      //           type="text"
+      //           value={lastName}
+      //           placeholder="Last Name"
+      //           required={true} 
+      //         />
+      //         <input
+      //           class="form-input"
+      //           id="email"
+      //           name="MERGE0"
 
-                onChange={e => setEmail(e.target.value)} 
-                type="email"
-                value={email}
-                placeholder="your@email.com"
-                required={true} 
-              />
+      //           onChange={e => setEmail(e.target.value)} 
+      //           type="email"
+      //           value={email}
+      //           placeholder="your@email.com"
+      //           required={true} 
+      //         />
 
-              <button
-                class="form-input"
-                id="form-button"
-                label="subscribe"
-                type="submit"
-              >Subscribe</button>
-          </div>
-          </form>
-      </section>
+      //         <button
+      //           class="form-input"
+      //           id="form-button"
+      //           label="subscribe"
+      //           type="submit"
+      //         >Subscribe</button>
+      //     </div>
+      //     </form>
+      // </section>
       )
 
 } 
