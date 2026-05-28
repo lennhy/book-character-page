@@ -19,7 +19,15 @@ export default function HomeGallery() {
           <div className="video-container">
   
         <div className="video-wrapper">
-          <video id="video-box" autoPlay muted loop playsInline>
+          <video  
+              id="video-box" 
+              autoPlay 
+              muted 
+              loop 
+              playsInline
+              style={{ width: '100%', height: 'auto' }} 
+
+              >
               <source src="/videos/title-sequence2.mp4" type="video/mp4" />
           </video>            
           </div>
