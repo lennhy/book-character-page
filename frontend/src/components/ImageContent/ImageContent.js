@@ -3,7 +3,11 @@ import "./image-content.css";
 
 export default function ImageContent({ category, index }) {
   const [hoverImage, setHoverImage] = useState(false);
-  const youtTubeVideos = ["https://www.youtube.com/embed/M7zoHmCqJHs?si=lZeNQAwTB4V1Nb5Q", "https://www.youtube.com/embed/AqKIXAYWllA?si=i5MDABiRxzVM9gRx", "https://www.youtube.com/embed/Q3psw5wizAE?si=n2GRMyL1yECrZeBA"]
+  const youtTubeVideos = [
+   "/images/thumb1.jpg",
+   "/images/thumb2.jpg",
+   "/images/thumb3.jpg"  
+  ];
   // let imgUrl = `../../${category}.jpg`;
 
   let imgUrl = process.env.PUBLIC_URL + `${category}.jpg`
@@ -35,7 +39,7 @@ export default function ImageContent({ category, index }) {
         src={imgUrl}
         alt={category}
       >
-        <iframe 
+        <img 
               width="420" 
               height="236.25" 
               src={`${youtTubeVideos[index]}`}
@@ -45,7 +49,7 @@ export default function ImageContent({ category, index }) {
               allowFullScreen
               >
                 
-            </iframe>
+            </img>
       </div>
       {/* <div className="category-image__text">
         <h3>{category}</h3>

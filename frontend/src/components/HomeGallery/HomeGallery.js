@@ -15,14 +15,24 @@ export default function HomeGallery() {
         </div>
       </section>
       <div className="App-header">
-        <div className="background-banner">POLYVERGE</div>
+        <div className="background-banner">
+          <div className="video-container">
+  
+        <div className="video-wrapper">
+          <video id="video-box" autoPlay muted loop playsInline>
+              <source src="/videos/title-sequence2.mp4" type="video/mp4" />
+          </video>            
+          </div>
+        </div>
+
+        </div>
         {/* <div className="intro-landing"><div>Provocative and visceral storytelling</div></div> */}
 
-          <section className="home-gallery">
+          {/* <section className="home-gallery">
             {categories.map((cat, i) => (
                       <ImageContent key={cat} category={cat} index={i} />
             ))}
-          </section>
+          </section> */}
       </div>
     </section>
   )
