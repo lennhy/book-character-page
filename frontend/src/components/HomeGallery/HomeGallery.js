@@ -25,7 +25,7 @@ export default function HomeGallery() {
               muted 
               loop 
               playsInline
-              style={{ width: '100%', height: 'auto' }} 
+              style={{ width: '100%', height: '100%' }} 
 
               >
               <source src="/videos/title-sequence2.mp4" type="video/mp4" />
