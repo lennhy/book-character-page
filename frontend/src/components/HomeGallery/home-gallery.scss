@@ -152,7 +152,7 @@ justify-content: center;
 video#video-box {
   position: absolute;
   inset: 0;
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
   z-index: -1;
@@ -177,4 +177,11 @@ video#video-box {
   z-index: 0;
 }
     
+@media screen and (max-width: 450px) {
+  video#video-box{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+}
 }
