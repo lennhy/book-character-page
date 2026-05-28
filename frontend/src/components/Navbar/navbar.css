@@ -34,8 +34,10 @@
 }
 
 .navigation img {
-  width: 125px;
+  width: 50px;
   height: auto;
+  margin-top: 12px;
+  margin-left: 12px;
 }
 
 .flex-container {

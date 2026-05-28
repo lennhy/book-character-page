@@ -26,7 +26,15 @@ const Navbar = () => {
         </div>
         <div className="right">
           {addSubNav()}
-          <NavLink className="nav-links" to="/newsletter">Newsletter</NavLink>
+          {/* <NavLink className="nav-links" to="/newsletter">sNewsletter</NavLink> */}
+          <a
+            className="nav-links"
+            href="https://polyverge.kit.com/12bb684e5a"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Newsletter
+          </a>
           {/* <NavLink className="nav-links" to="//www.polyverge.shop" target={"_blank"} rel="noopener noreferrer">Shop</NavLink> */}
         
         </div>

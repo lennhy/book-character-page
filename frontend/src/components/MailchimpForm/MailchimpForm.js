@@ -11,7 +11,7 @@ export default function MailchimpForm() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('Join our exclusive newsletter for our upcoming novel: What Gods Lie Below');
-
+ 
   // useEffect(() => {
   //   console.log("ran")
   //   console.log(firstName)
@@ -116,8 +116,8 @@ export default function MailchimpForm() {
   }
 
   return (
-    <div class="nav-links"><div class="box-shadow-menu"> <h1>Under Constructon</h1></div></div>
-   
+    <div className="newsletter-container flex-center"><div className="info-message"> <p>Under Construction</p></div></div>
+    
       //   <section className="newsletter-container flex-center">
       //     <form action={postURL} className="mc__form" onSubmit={handleSubmit} >
       //       <div className="mc__field-container">
