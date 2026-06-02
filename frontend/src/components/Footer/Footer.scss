@@ -1,0 +1,32 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  padding: 15px 0;
+  z-index: 1000;
+  background-color: #000;
+  // margin-bottom: 0;
+  // padding-bottom: 0;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  opacity: 50%;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+  opacity: 100%;
+}

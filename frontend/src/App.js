@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom"; // import Link in addition to other Components
 import { useEffect, useState } from 'react';
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import HomeGallery from "./components/HomeGallery/HomeGallery";
 import MobileNavbar from "./components/MobileNavbar/MobileNavbar";
@@ -68,6 +69,8 @@ function App() {
         </Routes>
         
       </BrowserRouter>
+            <Footer />
+
     </div>
   );
 }
