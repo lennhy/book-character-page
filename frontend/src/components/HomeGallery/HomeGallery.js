@@ -18,18 +18,27 @@ export default function HomeGallery() {
         <div className="background-banner">
           <div className="video-container">
   
-        <div className="video-wrapper">
-          <video  
-              id="video-box" 
-              autoPlay 
-              muted 
-              loop 
-              playsInline
-              style={{ width: '100%', height: '100%' }} 
+            <div className="video-wrapper">
+                <a
+                  href="https://www.youtube.com/watch?v=I66U7OZ2mfc"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="episode-link"
+                >
+                  Watch Werewolf In New York on YouTube
+                </a>
 
-              >
-              <source src="/videos/title-sequence2.mp4" type="video/mp4" />
-          </video>            
+                <video  
+                    id="video-box" 
+                    autoPlay 
+                    muted 
+                    loop 
+                    playsInline
+                    style={{ width: '100%', height: '100%' }} 
+
+                    >
+                    <source src="/videos/title-sequence2.mp4" type="video/mp4" />
+                </video>            
           </div>
         </div>
 
