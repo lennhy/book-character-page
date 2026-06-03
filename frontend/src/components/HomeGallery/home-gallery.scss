@@ -96,11 +96,10 @@ justify-content: center;
 
 .episode-link {
   position: absolute;
-  top: 80%;
+  top: 50%;
   left: 50%;
   z-index: 10;
   padding: 14px 28px;
-  // background: rgba(0, 0, 0, 0.65);
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -115,6 +114,12 @@ justify-content: center;
 .episode-link:hover {
   background: rgba(255,255,255,0.15);
   opacity: 100%;
+}
+.video-wrapper {
+  width: 100%;
+  // height: 100vh;
+  overflow: hidden;
+  position: absolute;
 }
 
 @media screen and (max-width: 450px) {
@@ -165,10 +170,10 @@ justify-content: center;
 // background-video-player --------------
 
 .video-wrapper {
-  position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  position: absolute;
 }
 /* Background video */
 
@@ -209,10 +214,15 @@ video#video-box {
     object-fit: cover;
   }
 
+  .video-wrapper{
+    position: relative;
+  }
+
   .episode-link {
     font-size: 15px;
-    width: 80%;
+    width: 50%;
     padding: 10px;
+    top:50%;
   }
 }
 }
