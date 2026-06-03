@@ -38,6 +38,5 @@ export default function MailchimpForm() {
       // -------------------------- Kit Newsletter code -------------------------------
       
 
-      
-
+    
 } 
