@@ -43,7 +43,15 @@ form.mc__form {
 }
 
 .newsletter-container {
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.formkit-form {
+  margin: 0 auto !important;
 }
 
 @media screen and (max-width: 450px) {
