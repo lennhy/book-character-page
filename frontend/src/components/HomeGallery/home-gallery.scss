@@ -111,12 +111,84 @@ justify-content: center;
   position: absolute;
 }
 
+// @media screen and (max-width: 450px) {
+//   .category-image__image {
+//     margin: 5px;
+//   }
+//   .home-gallery{
+//     margin-top: 25px;
+//   }
+//   .intro-landing {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 100px;
+//     margin-bottom: 100px;
+//   }
+//   .intro-landing div{
+//     font-size: 2rem;
+//     width: 75%;
+//     margin-top: 0;
+//   }
+//   .background-banner{
+//     font-size: 20vw;
+//     letter-spacing: -5px;
+//     font-optical-sizing: auto;
+//     margin-top: 50px;
+//   }
+//   .home-gallery a {
+//     height: auto;
+//     padding: 20px;
+//   }
+
+//   .video-wrapper {
+//     width: 100%;
+//     height: 100dvh; // CHANGED from 100vh — fixes Pixel 6 / mobile Chrome toolbar overlap
+//     overflow: hidden;
+//     position: absolute;
+//   }
+
+//   video#video-box {
+//     position: absolute;
+//     inset: 0;
+//     width: auto;
+//     height: 100%;
+//     object-fit: cover;
+//     z-index: -1;
+//     pointer-events: none;
+//   }
+
+//   .content {
+//     position: relative;
+//     z-index: 1;
+//     color: white;
+//     text-align: center;
+//     padding-top: 40vh;
+//   }
+
+//   .video-wrapper::before {
+//     content: "";
+//     position: absolute;
+//     inset: 0;
+//     background: rgba(0, 0, 0, 0.35);
+//     z-index: 0;
+//   }
+
+//   .episode-link {
+//     font-size: 15px;
+//     width: 90%;
+//     padding: 10px;
+//     top:50%;
+//   }
+// }
+
 @media screen and (max-width: 450px) {
   .category-image__image {
     margin: 5px;
   }
   .home-gallery{
-    margin-top: 25px;
+    margin-top: 0; // CHANGED from 25px — was creating the gap
   }
   .intro-landing {
     display: flex;
@@ -144,9 +216,11 @@ justify-content: center;
 
   .video-wrapper {
     width: 100%;
-    height: 100dvh; // CHANGED from 100vh — fixes Pixel 6 / mobile Chrome toolbar overlap
+    height: 100dvh;
     overflow: hidden;
     position: absolute;
+    top: 0; // ADDED — pins video to very top, behind the fixed nav
+    left: 0;
   }
 
   video#video-box {
