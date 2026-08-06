@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+   "short_name": "Polyverge",
+  "name": "Polyverge",
+  "description": "Provocative & visceral stories, rooted in fantasy, science fiction and action. Celebrating ethnic and cultural diversity and pushing the boundaries of cinematic storytelling.",
   "icons": [
     {
       "src": "favicon.ico",

@@ -4,7 +4,7 @@ const Footer = () => {
 
   return <div className="footer">
 
-    <a
+    {/* <a
     href="https://www.youtube.com/@Polyverge"
     target="_blank"
     rel="noreferrer"
@@ -28,7 +28,7 @@ const Footer = () => {
       alt="Instagram"
       className="social-icon"
     />
-  </a>
+  </a> */}
 
   {/* <a
     src="https://cdn.simpleicons.org/facebook/white"

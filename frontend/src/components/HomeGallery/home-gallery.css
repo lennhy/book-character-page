@@ -129,6 +129,7 @@
 
 .video-wrapper {
   width: 100%;
+  height: auto;
   overflow: hidden;
   position: absolute;
 }
