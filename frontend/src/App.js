@@ -40,9 +40,12 @@ function App() {
         </div>
 
         <div
-          className={`box-shadow-menu ${isMenuOpen ? 'rotate-shadow-menu' : ''}`}
+          className={`hamburger ${isMenuOpen ? 'is-open' : ''}`}
           onClick={toggleVisibility}
-        ></div>
+        >
+          <span className="hamburger-bar"></span>
+          <span className="hamburger-bar hamburger-bar--vertical"></span>
+        </div>
 
         <Navbar />
         <MobileNavbar scale={isMenuOpen ? '100%' : '0'} toggle={toggleVisibility} />
