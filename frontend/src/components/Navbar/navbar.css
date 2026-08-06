@@ -14,7 +14,7 @@
 .navigation a {
   color: #fff;
   text-decoration: none;
-  padding-left: 10px;
+  padding: 10px;
   background: #ff3232;
   /* Old browsers */
   background: linear-gradient(to right, transparent 50%, #ffffff 50%);

@@ -11,6 +11,14 @@ const Navbar = () => {
     // if (location.pathname !== '/'){
     return(
       <>
+      {/* <NavLink className="nav-links" to="/clients">CLient Work</NavLink> */}
+      <NavLink 
+        className="nav-links" 
+        to="https://www.youtube.com/@Polyverge" 
+        target={"_blank"} 
+        rel="noopener noreferrer">Films And Series
+      </NavLink>
+
       <NavLink className="nav-links" to="/illustrations">Art</NavLink>
       <NavLink className="nav-links" to="/novels">Books</NavLink>
       </>
@@ -27,15 +35,7 @@ const Navbar = () => {
         <div className="right">
           {addSubNav()}
           <NavLink className="nav-links" to="/newsletter">Newsletter</NavLink>
-          {/* <a
-            className="nav-links"
-            href="https://polyverge.kit.com/12bb684e5a"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Newsletter
-          </a> */}
-          {/* <NavLink className="nav-links" to="//www.polyverge.shop" target={"_blank"} rel="noopener noreferrer">Shop</NavLink> */}
+
         
         </div>
       </nav>
