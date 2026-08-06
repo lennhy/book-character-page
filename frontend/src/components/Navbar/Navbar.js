@@ -18,9 +18,8 @@ const Navbar = () => {
         target={"_blank"} 
         rel="noopener noreferrer">Films And Series
       </NavLink>
-
+      <NavLink className="nav-links" to="/novels">Illustrated Novels</NavLink>
       <NavLink className="nav-links" to="/illustrations">Art</NavLink>
-      <NavLink className="nav-links" to="/novels">Books</NavLink>
       </>
     );
     // }
