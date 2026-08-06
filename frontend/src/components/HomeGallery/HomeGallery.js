@@ -25,7 +25,7 @@ export default function HomeGallery() {
                   rel="noreferrer"
                   className="episode-link"
                 >
-                  Watch Werewolf In New York on YouTube
+                  Watch Werewolf In New York
                 </a>
 
                 <video  
