@@ -9,7 +9,7 @@ const MobileNavbar = ({scale, toggle}) => {
   return (
     <>
       <nav className="mobile-navigation" style={{'width': scale}}>
-         <a className="nav-links"
+         <a 
             href="https://www.youtube.com/@Polyverge"
             target="_blank"
             rel="noopener noreferrer"
@@ -18,9 +18,9 @@ const MobileNavbar = ({scale, toggle}) => {
             Films & Series
           </a>
           {/* <NavLink className="nav-links" to="/film" onClick={toggle}>Film</NavLink> */}
-          <NavLink className="nav-links" to="/novels" onClick={toggle}>Illustrated Novels</NavLink>
-          <NavLink className="nav-links" to="/illustrations" onClick={toggle}>Art</NavLink>
-          <NavLink className="nav-links" to="/newsletter" onClick={toggle}>Newsletter</NavLink>
+          <NavLink to="/novels" onClick={toggle}>Illustrated Novels</NavLink>
+          <NavLink  to="/illustrations" onClick={toggle}>Art</NavLink>
+          <NavLink to="/newsletter" onClick={toggle}>Newsletter</NavLink>
           {/* <a className="nav-links" target="_blank"href="https://polyverge.kit.com/12bb684e5a">Newsletter</a> */}
           {/* <NavLink className="nav-links" to="//www.polyverge.shop"  onClick={toggle} target={"_blank"} rel="noopener noreferrer">Shop</NavLink> */}
       </nav>
