@@ -2,3 +2,6 @@
 *backend/node_modules
 backend/.env
 frontend/.env
+.DS_Store
+frontend/.DS_Store
+frontend/public/.DS_Store
