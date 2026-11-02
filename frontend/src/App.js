@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HomeGallery from "./components/HomeGallery/HomeGallery";
 import MobileNavbar from "./components/MobileNavbar/MobileNavbar";
 import BookToMoviesList from "./components/BooksToMoviesList/BooksToMoviesList";
+import VideoPage from "./components/VideoPage/VideoPage";
 import IllustrationsPage from "./Pages/IllustrationsPage";
 import MailchimpForm from "./components/MailchimpForm/MailchimpForm";
 import NovelPage from "./Pages/NovelPage";
@@ -57,6 +58,7 @@ function App() {
           <Route path="/comics" element={<ComicPage />}></Route>
           <Route path="/topbookadaptations" element={<BookToMoviesList />}></Route>
           <Route path="/illustrations" element={<IllustrationsPage />}></Route>
+          <Route path="/videopage" element={<VideoPage />}></Route>
           <Route path="/newsletter" element={<MailchimpForm />}></Route>
         </Routes>
       </BrowserRouter>

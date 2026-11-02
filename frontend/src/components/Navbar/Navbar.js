@@ -12,11 +12,12 @@ const Navbar = () => {
     return(
       <>
       {/* <NavLink className="nav-links" to="/clients">CLient Work</NavLink> */}
+      <NavLink className="nav-links" to="/videopage">Video Services</NavLink>
       <NavLink 
         className="nav-links" 
         to="https://www.youtube.com/@Polyverge" 
         target={"_blank"} 
-        rel="noopener noreferrer">Films And Series
+        rel="noopener noreferrer">All Films And Series
       </NavLink>
       <NavLink className="nav-links" to="/novels">Illustrated Novels</NavLink>
       <NavLink className="nav-links" to="/illustrations">Art</NavLink>
