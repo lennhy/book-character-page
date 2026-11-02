@@ -325,7 +325,7 @@ export default function VideoPage() {
     <main style={styles.page}>
       <header style={styles.header}>
         {/* <h1 style={styles.heading}>Video Services</h1> */}
-        <p style={styles.sub}>click any video to play.</p>
+        <h1 style={styles.sub}>Click any video to play.</h1>
       </header>
 
       <section style={styles.grid}>
@@ -359,6 +359,7 @@ const styles = {
   sub: {
     color: "#9a9aa3",
     marginTop: 8,
+    textTransform: "uppercase"
   },
   grid: {
     maxWidth: 1200,

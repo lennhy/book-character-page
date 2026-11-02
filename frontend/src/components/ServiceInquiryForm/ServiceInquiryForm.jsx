@@ -117,7 +117,7 @@ export default function ServiceInquiryForm() {
   return (
     <main style={styles.page}>
       <form style={styles.card} onSubmit={handleSubmit} noValidate>
-        <h1 style={styles.heading}>let's work together</h1>
+        <h1 style={styles.heading} >let's work together</h1>
         <p style={styles.sub}>
           tell me about your project and i'll get back to you.
         </p>
@@ -235,6 +235,7 @@ const styles = {
     fontWeight: 700,
     letterSpacing: "-0.02em",
     margin: 0,
+    textTransform: "uppercase"
   },
   sub: {
     color: "#9a9aa3",
@@ -291,3 +292,5 @@ const styles = {
     alignSelf: "center",
   },
 };
+
+
