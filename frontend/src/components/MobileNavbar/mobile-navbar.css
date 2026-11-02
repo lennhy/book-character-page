@@ -89,6 +89,16 @@
     width: 0;
   }
 }
+/* keep labels on one line and clip them while the menu closes */
+.mobile-navigation {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mobile-navigation a {
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 450px) {
   .hamburger {
     display: flex;
