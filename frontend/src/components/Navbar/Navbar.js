@@ -12,7 +12,6 @@ const Navbar = () => {
     return(
       <>
       {/* <NavLink className="nav-links" to="/clients">CLient Work</NavLink> */}
-      <NavLink className="nav-links" to="/serviceinquiry">Work With Me</NavLink>
       <NavLink className="nav-links" to="/videopage">What I Do</NavLink>
       <NavLink 
         className="nav-links" 
@@ -36,8 +35,8 @@ const Navbar = () => {
         <div className="right">
           {addSubNav()}
           <NavLink className="nav-links" to="/newsletter">Newsletter</NavLink>
+          <NavLink className="nav-links nav-cta" to="/serviceinquiry">Work With Me</NavLink>
 
-        
         </div>
       </nav>
     </>
