@@ -9,6 +9,8 @@ const MobileNavbar = ({scale, toggle}) => {
   return (
     <>
       <nav className="mobile-navigation" style={{'width': scale}}>
+        <NavLink to="/serviceinquiry" onClick={toggle}>What I do</NavLink>
+        <NavLink to="/videopage" onClick={toggle}>Video Services</NavLink>
          <a 
             href="https://www.youtube.com/@Polyverge"
             target="_blank"

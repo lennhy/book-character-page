@@ -11,6 +11,7 @@ import BookToMoviesList from "./components/BooksToMoviesList/BooksToMoviesList";
 import VideoPage from "./components/VideoPage/VideoPage";
 import IllustrationsPage from "./Pages/IllustrationsPage";
 import MailchimpForm from "./components/MailchimpForm/MailchimpForm";
+import ServiceInquiryForm from "./components/ServiceInquiryForm/ServiceInquiryForm";
 import NovelPage from "./Pages/NovelPage";
 import FilmPage from "./Pages/FilmPage";
 import ComicPage from "./Pages/ComicPage";
@@ -60,6 +61,7 @@ function App() {
           <Route path="/illustrations" element={<IllustrationsPage />}></Route>
           <Route path="/videopage" element={<VideoPage />}></Route>
           <Route path="/newsletter" element={<MailchimpForm />}></Route>
+          <Route path="/serviceinquiry" element={<ServiceInquiryForm />}></Route>
         </Routes>
       </BrowserRouter>
       <Footer />
