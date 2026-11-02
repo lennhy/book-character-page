@@ -19,14 +19,14 @@ export default function HomeGallery() {
           <div className="video-container">
   
             <div className="video-wrapper">
-                <a
+                {/* <a
                   href="https://www.youtube.com/watch?v=I66U7OZ2mfc"
                   target="_blank"
                   rel="noreferrer"
                   className="episode-link"
                 >
                   Watch Werewolf In New York
-                </a>
+                </a> */}
 
                 <video  
                     id="video-box" 
