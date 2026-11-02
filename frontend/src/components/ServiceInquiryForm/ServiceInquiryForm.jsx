@@ -177,7 +177,7 @@ export default function ServiceInquiryForm() {
               type="text"
               value={form.budget}
               onChange={update("budget")}
-              placeholder="e.g. $1,000 – $3,000"
+              placeholder="e.g. $3000 – $5000"
             />
           </label>
         </div>
