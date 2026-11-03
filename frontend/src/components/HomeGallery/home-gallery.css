@@ -133,7 +133,7 @@
   position: absolute;
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 900px) {
   .category-image__image {
     margin: 5px;
   }

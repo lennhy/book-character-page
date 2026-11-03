@@ -139,7 +139,7 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 450px) {
+@media (max-width: 900px) {
   .loading-text {
     left: 0;
     right: 0;

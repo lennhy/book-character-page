@@ -1,3 +1,5 @@
+
+
 .navigation {
   background-color: transparent;
   position: fixed;
@@ -58,7 +60,7 @@
   border-radius: 6px;
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 900px) {
   .navigation a:not(:first-of-type) {
     display: none;
   }

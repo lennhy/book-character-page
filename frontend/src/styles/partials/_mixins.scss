@@ -1,5 +1,10 @@
 @use "variables" as *;
 
+@mixin mobile {
+  @media (max-width: $mobile-breakpoint) {
+    @content;
+  }
+}
 @mixin center-element {
   display: flex;
   justify-content: center;

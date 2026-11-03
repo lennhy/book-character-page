@@ -1,4 +1,6 @@
+@use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
 
 .navigation{
     background-color: transparent;
@@ -65,7 +67,7 @@
 
 // ---------------------- | Media | -----------------------
 
-@media screen and (max-width: 450px) {
+@include mobile {
     .navigation a:not(:first-of-type){
         display: none;
     }
